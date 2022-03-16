@@ -10,7 +10,7 @@ let { src, dest, watch, parallel } = require('gulp'),
 const webpack = require("webpack-stream");
 
 const dist = "./dist/";
-// const dist = "/Applications/MAMP/htdocs/test/dist/";
+const distServer = "/Users/nikitakuvasov/Sites/Gwint/";
 
 
 function gulpPug() {
@@ -39,6 +39,7 @@ function scss() {
 		}))
 		.pipe(dest('app/assets/css'))
 		.pipe(dest(dist+'/assets/css'))
+		.pipe(dest(distServer+'/assets/css'))
 		.pipe(browserSync.reload({
 			stream: true
 		}));
@@ -66,6 +67,7 @@ function  css() {
 function html() {
 	return src('app/*.html')
 		.pipe(dest(dist))
+		.pipe(dest(distServer))
 		.pipe(browserSync.stream());
 };
 
@@ -98,12 +100,14 @@ function buildJs(){
                       }
 				}))
 				.pipe(dest(dist + "assets/js"))
+				.pipe(dest(distServer + "assets/js"))
                 .on("end", browserSync.reload);
 };
 
 function copyAssets(){
     return src(["./app/assets/**/*.*", "!app/assets/scss/**/*.*", "!app/assets/js/**/*.*"])
                 .pipe(dest(dist + "/assets"))
+                .pipe(dest(distServer + "/assets"))
                 .on("end", browserSync.reload);
 };
 
