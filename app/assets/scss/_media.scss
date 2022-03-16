@@ -1,0 +1,95 @@
+@media(max-width: 1000px) {
+    .all-cards,.deck-cards {
+       flex-shrink: 1;
+    }
+
+    .deck-cards__content,.all-cards__content {
+        justify-content: center;
+        .simplebar-content {
+            justify-content: center;
+        }
+    }
+
+    .card-item {
+        &:nth-child(2n+2){
+            margin-left: 16%;
+            margin-right: 0;
+        }
+        &:nth-child(3){
+            margin-top: 20px;
+        }
+    }
+}
+
+@media(max-width:800px) {
+    .random-cards__bigcard  {
+        max-height: 300px;
+        max-width: 160px;
+    }
+    .random-cards__info{
+        h2,p{
+            font-size: 15px;
+        }
+
+        h2{
+            margin-bottom: 5px;
+        }
+    }
+    .random-cards__info-total,.random-cards__info-unit,.random-cards__info-special {
+        margin-bottom: 10px;
+    }
+    .all-cards__tabs-trigger,.deck-cards__tabs-trigger {
+        padding: 0;
+    }
+
+    .card-item {
+        &:nth-child(2n+2){
+            margin-left: 10%;
+            margin-right: 0;
+        }
+    }
+}
+
+
+@media(max-width:760px) {
+    .popup-close {
+        display: flex;
+    }
+}
+
+
+@media(max-height:1000px) {
+    .random-cards__bigcard-cercle {
+        transform: translateX(-50%) translateY(-50%) scale(1.2);
+    }
+}
+
+@media(max-height:900px) {
+
+    .random-cards__bigcard {
+        margin-bottom: 20px;
+        margin-top: 15px;
+        max-height: 250px;
+        max-width: 130px;
+    }
+
+    .random-cards__info{
+        h2,p{
+            font-size: 15px;
+        }
+
+        h2{
+            margin-bottom: 5px;
+        }
+    }
+    .random-cards__info-total,.random-cards__info-unit,.random-cards__info-special {
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        height: 68vh;
+    }
+    .deck-cards__content,.all-cards__content {
+        height: calc(68vh - 150px);
+    }
+}

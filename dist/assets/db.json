@@ -1,0 +1,90 @@
+{
+    "fraction": {
+
+        "nilfgaard": {
+            "leaders": [
+                {
+                    "name": "liderLordSouth",
+                    "bg": "liderLordSouth.png",
+                    "gamers" : {
+                        "Nikita": true,
+                        "Alice": false,
+                        "Fedor": true
+                    }
+                }
+            ],
+
+            "melee": [
+                {
+                    "name": "meleGroupNilf.png",
+                    "bg": "meleGroupNilf.png",
+                    "gamers" : {
+                        "Nikita": true,
+                        "Alice": false,
+                        "Fedor": true
+                    }
+                }
+            ],
+
+            "long": {
+
+            },
+
+            "siege": {
+
+            },
+
+            "hero": {
+
+            },
+
+            "special": {
+
+            }
+        },
+        "monsters": {
+            
+            "leaders": [
+                {
+                    "name": "liderLordSouth",
+                    "bg": "liderLordSouth.png",
+                    "gamers" : {
+                        "Nikita": true,
+                        "Alice": false,
+                        "Fedor": true
+                    }
+                }
+            ],
+
+            "melee": [
+                {
+                    "name": "meleGroupNilf.png",
+                    "bg": "meleGroupNilf.png",
+                    "gamers" : {
+                        "Nikita": true,
+                        "Alice": false,
+                        "Fedor": true
+                    }
+                }
+            ],
+
+            "long": {
+
+            },
+
+            "siege": {
+
+            },
+
+            "hero": {
+
+            },
+
+            "special": {
+
+            }
+
+        }
+
+    }
+}
