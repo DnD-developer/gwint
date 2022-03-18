@@ -1009,7 +1009,7 @@ function dbFraction() {
   const fraction = {
     nilfgaard: {
       leaders: {
-        0: {
+        liderLordSouth: {
           name: "liderLordSouth",
           bg: "url(assets/img/nilfgaard/liderLordSouth.png)",
           gamers: {
@@ -1019,7 +1019,7 @@ function dbFraction() {
             Fedor: false
           }
         },
-        1: {
+        liderLordSouth1: {
           name: "liderLordSouth1",
           bg: "url(assets/img/nilfgaard/liderLordSouth.png)",
           gamers: {
@@ -1029,7 +1029,7 @@ function dbFraction() {
             Fedor: false
           }
         },
-        2: {
+        liderLordSouth2: {
           name: "liderLordSouth2",
           bg: "url(assets/img/nilfgaard/liderImperatorNilf.png)",
           gamers: {
@@ -1039,7 +1039,7 @@ function dbFraction() {
             Fedor: false
           }
         },
-        3: {
+        liderLordSouth3: {
           name: "liderLordSouth3",
           bg: "url(assets/img/nilfgaard/liderImperatorNilf.png)",
           gamers: {
@@ -1049,7 +1049,7 @@ function dbFraction() {
             Fedor: false
           }
         },
-        4: {
+        liderLordSouth4: {
           name: "liderLordSouth4",
           bg: "url(assets/img/nilfgaard/liderImperatorNilf.png)",
           gamers: {
@@ -1058,90 +1058,10 @@ function dbFraction() {
             Anastasia: false,
             Fedor: false
           }
-        } // liderLordSouth4:{
-        //     name: "liderLordSouth4",
-        //     bg: "url(assets/img/nilfgaard/liderLordSouth.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-        // liderLordSouth5:{
-        //     name: "liderLordSouth5",
-        //     bg: "url(assets/img/nilfgaard/liderLordSouth.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-        // liderLordSouth6:{
-        //     name: "liderLordSouth6",
-        //     bg: "url(assets/img/nilfgaard/liderImperatorNilf.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-        // liderLordSouth7:{
-        //     name: "liderLordSouth7",
-        //     bg: "url(assets/img/nilfgaard/liderImperatorNilf.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-        // liderLordSouth8:{
-        //     name: "liderLordSouth8",
-        //     bg: "url(assets/img/nilfgaard/liderLordSouth.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-        // liderLordSouth9:{
-        //     name: "liderLordSouth9",
-        //     bg: "url(assets/img/nilfgaard/liderLordSouth.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-        // liderLordSouth10:{
-        //     name: "liderLordSouth10",
-        //     bg: "url(assets/img/nilfgaard/liderImperatorNilf.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-        // liderLordSouth11:{
-        //     name: "liderLordSouth11",
-        //     bg: "url(assets/img/nilfgaard/liderImperatorNilf.png)",
-        //     gamers : {
-        //         Nikita: false,
-        //         Alice: false,
-        //         Anastasia: false,
-        //         Fedor: false
-        //     }
-        // },
-
+        }
       },
       melee: {
-        4: {
+        meleGroupNilf: {
           name: "meleGroupNilf",
           bg: "url(assets/img/nilfgaard/meleGroupNilf.png)",
           gamers: {
@@ -1151,7 +1071,7 @@ function dbFraction() {
             Fedor: false
           }
         },
-        5: {
+        melenauzick_2_friend: {
           name: "melenauzick_2_friend",
           bg: "url(assets/img/nilfgaard/melenauzick_2_friend.png)",
           gamers: {
@@ -1165,7 +1085,7 @@ function dbFraction() {
     },
     monsters: {
       leaders: {
-        0: {
+        liderEredinBreakkGlass: {
           name: "liderEredinBreakkGlass",
           bg: "url(assets/img/monsters/liderEredinBreakkGlass.png)",
           gamers: {
@@ -1177,7 +1097,7 @@ function dbFraction() {
         }
       },
       melee: {
-        1: {
+        meleGroupNaker_2: {
           name: "meleGroupNaker_2",
           bg: "url(assets/img/monsters/meleGroupNaker_2.png)",
           gamers: {
@@ -1191,7 +1111,7 @@ function dbFraction() {
     },
     northernRealms: {
       leaders: {
-        0: {
+        liderEredinBreakkGlass1: {
           name: "liderEredinBreakkGlass1",
           bg: "url(assets/img/monsters/liderEredinBreakkGlass.png)",
           gamers: {
@@ -1203,7 +1123,7 @@ function dbFraction() {
         }
       },
       melee: {
-        1: {
+        meleGroupNaker_21: {
           name: "meleGroupNaker_21",
           bg: "url(assets/img/monsters/meleGroupNaker_2.png)",
           gamers: {
@@ -1539,6 +1459,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "sliders": function() { return /* binding */ sliders; }
 /* harmony export */ });
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
+/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/services */ "./app/assets/js/services/services.js");
+
 
 function sliders() {
   swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_0__.Controller, swiper__WEBPACK_IMPORTED_MODULE_0__.EffectFade]);
@@ -1602,6 +1524,9 @@ function sliders() {
       nextEl: ".slider-fraction__next"
     }
   });
+  swiperFraction.on('slideChange', function () {
+    setTimeout(() => (0,_services_services__WEBPACK_IMPORTED_MODULE_1__.zeroFilter)(), 1);
+  });
   const swiperGamer = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".slider-gamer", {
     loop: true,
     slidesPerView: 3,
@@ -1614,6 +1539,9 @@ function sliders() {
       prevEl: ".slider-gamer__prev",
       nextEl: ".slider-gamer__next"
     }
+  });
+  swiperGamer.on('slideChange', function () {
+    setTimeout(() => (0,_services_services__WEBPACK_IMPORTED_MODULE_1__.zeroFilter)(), 1);
   });
 }
 
@@ -1681,8 +1609,14 @@ function tabsCategoriesCard(triggers, contents) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "init": function() { return /* binding */ init; },
-/* harmony export */   "changeCards": function() { return /* binding */ changeCards; }
+/* harmony export */   "changeCards": function() { return /* binding */ changeCards; },
+/* harmony export */   "zeroFilter": function() { return /* binding */ zeroFilter; }
 /* harmony export */ });
+/* harmony import */ var _modules_db__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/db */ "./app/assets/js/modules/db.js");
+/* harmony import */ var _modules_tabsCategoriesCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/tabsCategoriesCard */ "./app/assets/js/modules/tabsCategoriesCard.js");
+
+
+
 function init() {
   if ('ontouchstart' in window) {
     document.querySelector(".random-cards__bigcard").addEventListener("touchstart", () => {
@@ -1720,6 +1654,15 @@ function changeCards(cardsWrapper, cardFrontClass, cardBackClass) {
     });
   });
 }
+
+function zeroFilter() {
+  (0,_modules_tabsCategoriesCard__WEBPACK_IMPORTED_MODULE_1__.tabsCategoriesCard)(".all-cards__tabs-trigger li", ".all-cards__tabs-content h4");
+  (0,_modules_tabsCategoriesCard__WEBPACK_IMPORTED_MODULE_1__.tabsCategoriesCard)(".deck-cards__tabs-trigger li", ".deck-cards__tabs-content h4");
+  _modules_db__WEBPACK_IMPORTED_MODULE_0__.filter.changeAkcent();
+  _modules_db__WEBPACK_IMPORTED_MODULE_0__.filter.renderCard(document.querySelector(".all-cards__tabs-trigger li:first-child"));
+  _modules_db__WEBPACK_IMPORTED_MODULE_0__.filter.renderCard(document.querySelector(".deck-cards__tabs-trigger li:first-child"));
+}
+
 
 
 
@@ -21506,10 +21449,9 @@ var __webpack_exports__ = {};
   \*******************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_sliders_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/sliders.js */ "./app/assets/js/modules/sliders.js");
-/* harmony import */ var _modules_tabsCategoriesCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/tabsCategoriesCard */ "./app/assets/js/modules/tabsCategoriesCard.js");
-/* harmony import */ var _modules_db__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/db */ "./app/assets/js/modules/db.js");
-/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./services/services */ "./app/assets/js/services/services.js");
-/* harmony import */ var _modules_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/scroll */ "./app/assets/js/modules/scroll.js");
+/* harmony import */ var _modules_db__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/db */ "./app/assets/js/modules/db.js");
+/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./services/services */ "./app/assets/js/services/services.js");
+/* harmony import */ var _modules_scroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/scroll */ "./app/assets/js/modules/scroll.js");
 
 
 
@@ -21518,33 +21460,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.init)();
-  (0,_modules_scroll__WEBPACK_IMPORTED_MODULE_4__.scroll)();
-  _modules_db__WEBPACK_IMPORTED_MODULE_2__.filter.init();
+  (0,_services_services__WEBPACK_IMPORTED_MODULE_2__.init)();
+  (0,_modules_scroll__WEBPACK_IMPORTED_MODULE_3__.scroll)();
+  _modules_db__WEBPACK_IMPORTED_MODULE_1__.filter.init();
   (0,_modules_sliders_js__WEBPACK_IMPORTED_MODULE_0__.sliders)();
-  _modules_db__WEBPACK_IMPORTED_MODULE_2__.filter.moveCard();
-  zeroFilter();
-  document.querySelectorAll('.slider-fraction__btn').forEach(item => {
-    item.addEventListener("click", el => {
-      zeroFilter();
-    });
-  });
-  document.querySelectorAll('.slider-gamer__btn').forEach(item => {
-    item.addEventListener("click", el => {
-      zeroFilter();
-    });
-  });
-
-  function zeroFilter() {
-    (0,_modules_tabsCategoriesCard__WEBPACK_IMPORTED_MODULE_1__.tabsCategoriesCard)(".all-cards__tabs-trigger li", ".all-cards__tabs-content h4");
-    (0,_modules_tabsCategoriesCard__WEBPACK_IMPORTED_MODULE_1__.tabsCategoriesCard)(".deck-cards__tabs-trigger li", ".deck-cards__tabs-content h4");
-    _modules_db__WEBPACK_IMPORTED_MODULE_2__.filter.changeAkcent();
-    _modules_db__WEBPACK_IMPORTED_MODULE_2__.filter.renderCard(document.querySelector(".all-cards__tabs-trigger li:first-child"));
-    _modules_db__WEBPACK_IMPORTED_MODULE_2__.filter.renderCard(document.querySelector(".deck-cards__tabs-trigger li:first-child"));
-  }
-
+  _modules_db__WEBPACK_IMPORTED_MODULE_1__.filter.moveCard();
+  (0,_services_services__WEBPACK_IMPORTED_MODULE_2__.zeroFilter)();
   document.querySelector(".random-cards__bigcard-btn").addEventListener("click", () => {
-    _modules_db__WEBPACK_IMPORTED_MODULE_2__.filter.randomaizer();
+    _modules_db__WEBPACK_IMPORTED_MODULE_1__.filter.randomaizer();
   });
 });
 }();

@@ -143,6 +143,28 @@ footer {
     background-size: 110%;
     background-repeat: no-repeat;
 }
+.popup-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(#000000,0.9);
+    z-index: 500;
+    img {
+        width: 20vw;
+        height: 20vh;
+        margin-bottom: 20px;
+    }
+    h2 {
+        color: #ffffff;
+        font-size: 60px;
+    }
+}
 
 //!SlIDER-SWAPER
 .slider-fraction__next {

@@ -1,4 +1,5 @@
 import Swiper, { Navigation, Controller, EffectFade } from 'swiper';
+import {zeroFilter} from "../services/services";
 
 export function sliders(){
    
@@ -68,6 +69,10 @@ export function sliders(){
           },
     });
 
+    swiperFraction.on('slideChange', function () {
+        setTimeout(()=>zeroFilter(), 1);
+        
+    });
 
     const swiperGamer = new Swiper(".slider-gamer", {
         loop: true,
@@ -84,5 +89,9 @@ export function sliders(){
           },
     });
 
+    swiperGamer.on('slideChange', function () {
+        setTimeout(()=>zeroFilter(), 1);
+        
+    });
     
 }
