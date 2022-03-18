@@ -1283,9 +1283,6 @@ function sliders() {
       nextEl: ".slider-fraction__next"
     }
   });
-  swiperFractionBg.on('slideChange', function () {
-    setTimeout(() => (0,_services_services__WEBPACK_IMPORTED_MODULE_1__.zeroFilter)(), 1);
-  });
   const swiperlogoBg = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".slider-logo", {
     loop: true,
     effect: 'fade',
@@ -1329,6 +1326,9 @@ function sliders() {
       prevEl: ".slider-fraction__prev",
       nextEl: ".slider-fraction__next"
     }
+  });
+  swiperFraction.on('slideChange', function () {
+    setTimeout(() => (0,_services_services__WEBPACK_IMPORTED_MODULE_1__.zeroFilter)(), 1);
   });
   const swiperGamer = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".slider-gamer", {
     loop: true,
