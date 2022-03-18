@@ -21,6 +21,10 @@ export function sliders() {
         },
     });
 
+    swiperFractionBg.on("slideChange", function () {
+        setTimeout(() => zeroFilter(), 1);
+    });
+
     const swiperlogoBg = new Swiper(".slider-logo", {
         loop: true,
         effect: "fade",

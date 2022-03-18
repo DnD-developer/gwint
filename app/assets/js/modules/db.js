@@ -54,6 +54,7 @@ function dbFractionLocal() {
     }
     return dbFraction
 }
+
 function dbGamers() {
     const gamers = ["Nikita", "Alice", "Anastasia", "Fedor"]
     return gamers
@@ -63,7 +64,7 @@ function dbGamers() {
     return gamers
 }
 
-function dbFraction() {
+export function dbFraction() {
     const fraction = {
         nilfgaard: {
             leaders: {

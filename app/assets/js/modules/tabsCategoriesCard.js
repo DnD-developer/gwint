@@ -1,6 +1,7 @@
-import {filter} from "./db";
 
-export function tabsCategoriesCard(triggers, contents) {
+
+
+export function tabsCategoriesCard(triggers, contents, filter) {
     
     const tabsTriggersDomElements = document.querySelectorAll(triggers),
         tabsContentsDomElelements = document.querySelectorAll(contents);
