@@ -21,7 +21,7 @@
       "color": "#0087ff",
       "colorText": "#70c3ff",
       "logo": "url(assets/img/northernRealms/logoNorthernRealms.png",
-      "bgBack": "url(assets/img/monsters/bgCardMonsters.png)",
+      "bgBack": "url(assets/img/monsters/backgrounds/bgCardMonsters.png)",
       "bg": "url(assets/img/northernRealms/backgroundNorthernRealms.jpg)"
     },
     "scoyataely": {
@@ -29,7 +29,7 @@
       "color": "#008300",
       "colorText": "#04C100",
       "logo": "url(assets/img/scoyataely/logoScoyataely.png)",
-      "bgBack": "url(assets/img/monsters/bgCardMonsters.png)",
+      "bgBack": "url(assets/img/monsters/backgrounds/bgCardMonsters.png)",
       "bg": "url(assets/img/scoyataely/backgroundScoyataely.jpg)"
     },
     "skellige": {
@@ -37,7 +37,7 @@
       "color": "#9B00FF",
       "colorText": "#CD03FF",
       "logo": "url(assets/img/skellige/logoSkellige.png",
-      "bgBack": "url(assets/img/monsters/bgCardMonsters.png)",
+      "bgBack": "url(assets/img/monsters/backgrounds/bgCardMonsters.png)",
       "bg": "url(assets/img/skellige/backgroundSkellige.jpg)"
     }
   },
@@ -634,9 +634,9 @@
         }
       },
       "spec": {
-        "specDanny1": {
-          "name": "specDanny1",
-          "bg": "url(assets/img/nilfgaard/specDanny.png)",
+        "specDunny1": {
+          "name": "specDunny1",
+          "bg": "url(assets/img/nilfgaard/specDunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -644,9 +644,9 @@
             "Fedor": false
           }
         },
-        "specDanny2": {
-          "name": "specDanny2",
-          "bg": "url(assets/img/nilfgaard/specDanny.png)",
+        "specDunny2": {
+          "name": "specDunny2",
+          "bg": "url(assets/img/nilfgaard/specDunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -654,9 +654,9 @@
             "Fedor": false
           }
         },
-        "specDanny3": {
-          "name": "specDanny3",
-          "bg": "url(assets/img/nilfgaard/specDanny.png)",
+        "specDunny3": {
+          "name": "specDunny3",
+          "bg": "url(assets/img/nilfgaard/specDunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -814,9 +814,9 @@
             "Fedor": false
           }
         },
-        "specSanny1": {
-          "name": "specSanny1",
-          "bg": "url(assets/img/nilfgaard/specSanny.png)",
+        "specSunny1": {
+          "name": "specSunny1",
+          "bg": "url(assets/img/nilfgaard/specSunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -824,9 +824,9 @@
             "Fedor": false
           }
         },
-        "specSanny2": {
-          "name": "specSanny2",
-          "bg": "url(assets/img/nilfgaard/specSanny.png)",
+        "specSunny2": {
+          "name": "specSunny2",
+          "bg": "url(assets/img/nilfgaard/specSunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -834,9 +834,9 @@
             "Fedor": false
           }
         },
-        "specSanny3": {
-          "name": "specSanny3",
-          "bg": "url(assets/img/nilfgaard/specSanny.png)",
+        "specSunny3": {
+          "name": "specSunny3",
+          "bg": "url(assets/img/nilfgaard/specSunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -1508,19 +1508,9 @@
         }
       },
       "spec": {
-        "specDanny1": {
-          "name": "specDanny1",
-          "bg": "url(assets/img/monsters/specDanny.png)",
-          "gamers": {
-            "Nikita": true,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "specDanny2": {
-          "name": "specDanny2",
-          "bg": "url(assets/img/monsters/specDanny.png)",
+        "specDunny1": {
+          "name": "specDunny1",
+          "bg": "url(assets/img/monsters/specDunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -1528,9 +1518,19 @@
             "Fedor": false
           }
         },
-        "specDanny3": {
-          "name": "specDanny3",
-          "bg": "url(assets/img/monsters/specDanny.png)",
+        "specDunny2": {
+          "name": "specDunny2",
+          "bg": "url(assets/img/monsters/specDunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDunny3": {
+          "name": "specDunny3",
+          "bg": "url(assets/img/monsters/specDunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -1542,7 +1542,7 @@
           "name": "specDead1",
           "bg": "url(assets/img/monsters/specDead.png)",
           "gamers": {
-            "Nikita": true,
+            "Nikita": false,
             "Alice": false,
             "Anastasia": false,
             "Fedor": false
@@ -1594,7 +1594,7 @@
           "gamers": {
             "Nikita": false,
             "Alice": false,
-            "Anastasia": true,
+            "Anastasia": false,
             "Fedor": false
           }
         },
@@ -1632,7 +1632,7 @@
           "name": "specMist1",
           "bg": "url(assets/img/monsters/specMist.png)",
           "gamers": {
-            "Nikita": true,
+            "Nikita": false,
             "Alice": false,
             "Anastasia": false,
             "Fedor": false
@@ -1688,9 +1688,9 @@
             "Fedor": false
           }
         },
-        "specSanny1": {
-          "name": "specSanny1",
-          "bg": "url(assets/img/monsters/specSanny.png)",
+        "specSunny1": {
+          "name": "specSunny1",
+          "bg": "url(assets/img/monsters/specSunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -1698,9 +1698,9 @@
             "Fedor": false
           }
         },
-        "specSanny2": {
-          "name": "specSanny2",
-          "bg": "url(assets/img/monsters/specSanny.png)",
+        "specSunny2": {
+          "name": "specSunny2",
+          "bg": "url(assets/img/monsters/specSunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -1708,13 +1708,13 @@
             "Fedor": false
           }
         },
-        "specSanny3": {
-          "name": "specSanny3",
-          "bg": "url(assets/img/monsters/specSanny.png)",
+        "specSunny3": {
+          "name": "specSunny3",
+          "bg": "url(assets/img/monsters/specSunny.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
-            "Anastasia": true,
+            "Anastasia": false,
             "Fedor": false
           }
         },
@@ -1724,7 +1724,7 @@
           "gamers": {
             "Nikita": false,
             "Alice": false,
-            "Anastasia": true,
+            "Anastasia": false,
             "Fedor": false
           }
         },
@@ -1755,6 +1755,18 @@
         "liderEredinBreakkGlass1": {
           "name": "liderEredinBreakkGlass1",
           "bg": "url(assets/img/monsters/liderEredinBreakkGlass.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "melee": {
+        "meleGroupNaker_21": {
+          "name": "meleGroupNaker_21",
+          "bg": "url(assets/img/monsters/meleGroupNaker_2.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
