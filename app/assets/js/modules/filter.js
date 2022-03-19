@@ -86,7 +86,7 @@ export class Filter {
             for (let card in this.dbFraction[fraction][group]) {
                 if (this.dbFraction[fraction][group][card].gamers[gamer]) {
                     total += 1;
-                    if (group == "special") {
+                    if (group == "spec") {
                         totalSpecial += 1;
                     } else if (group != "leaders") {
                         totalUnit += 1;
