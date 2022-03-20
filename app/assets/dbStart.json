@@ -36,9 +36,9 @@
       "name": "skellige",
       "color": "#9B00FF",
       "colorText": "#CD03FF",
-      "logo": "url(assets/img/skellige/logoSkellige.png",
-      "bgBack": "url(assets/img/monsters/backgrounds/bgCardMonsters.png)",
-      "bg": "url(assets/img/skellige/backgroundSkellige.jpg)"
+      "logo": "url(assets/img/skellige/backgrounds/logoSkellige.png",
+      "bgBack": "url(assets/img/skellige/backgrounds/bgCardSkellige.png)",
+      "bg": "url(assets/img/skellige/backgrounds/backgroundSkellige.jpg)"
     }
   },
   "dbCards": {
@@ -87,6 +87,98 @@
         "liderLordSouth": {
           "name": "liderLordSouth",
           "bg": "url(assets/img/nilfgaard/liderLordSouth.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "hero": {
+        "heroAvalach_0_spy": {
+          "name": "heroAvalach_0_spy",
+          "bg": "url(assets/img/nilfgaard/heroAvalach_0_spy.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroGeralt_15": {
+          "name": "heroGeralt_15",
+          "bg": "url(assets/img/nilfgaard/heroGeralt_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroHoreFromVengerberg_7_live": {
+          "name": "heroHoreFromVengerberg_7_live",
+          "bg": "url(assets/img/nilfgaard/heroHoreFromVengerberg_7_live.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroHoreRilla_15": {
+          "name": "heroHoreRilla_15",
+          "bg": "url(assets/img/nilfgaard/heroHoreRilla_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroLeto_10": {
+          "name": "heroLeto_10",
+          "bg": "url(assets/img/nilfgaard/heroLeto_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroMennoKoegoorn_10_live": {
+          "name": "heroMennoKoegoorn_10_live",
+          "bg": "url(assets/img/nilfgaard/heroMennoKoegoorn_10_live.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroMorvanVoorhis_10": {
+          "name": "heroMorvanVoorhis_10",
+          "bg": "url(assets/img/nilfgaard/heroMorvanVoorhis_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroTiborEggebraht_10": {
+          "name": "heroTiborEggebraht_10",
+          "bg": "url(assets/img/nilfgaard/heroTiborEggebraht_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroTrrissPussygold_7": {
+          "name": "heroTrissPussygold_7",
+          "bg": "url(assets/img/nilfgaard/heroTrissPussygold_7.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -319,98 +411,6 @@
         "meleZoltan_5": {
           "name": "meleZoltan_5",
           "bg": "url(assets/img/nilfgaard/meleZoltan_5.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        }
-      },
-      "hero": {
-        "heroAvalach_0_spy": {
-          "name": "heroAvalach_0_spy",
-          "bg": "url(assets/img/nilfgaard/heroAvalach_0_spy.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroGeralt_15": {
-          "name": "heroGeralt_15",
-          "bg": "url(assets/img/nilfgaard/heroGeralt_15.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroHoreFromVengerberg_7_live": {
-          "name": "heroHoreFromVengerberg_7_live",
-          "bg": "url(assets/img/nilfgaard/heroHoreFromVengerberg_7_live.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroHoreRilla_15": {
-          "name": "heroHoreRilla_15",
-          "bg": "url(assets/img/nilfgaard/heroHoreRilla_15.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroLeto_10": {
-          "name": "heroLeto_10",
-          "bg": "url(assets/img/nilfgaard/heroLeto_10.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroMennoKoegoorn_10_live": {
-          "name": "heroMennoKoegoorn_10_live",
-          "bg": "url(assets/img/nilfgaard/heroMennoKoegoorn_10_live.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroMorvanVoorhis_10": {
-          "name": "heroMorvanVoorhis_10",
-          "bg": "url(assets/img/nilfgaard/heroMorvanVoorhis_10.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroTiborEggebraht_10": {
-          "name": "heroTiborEggebraht_10",
-          "bg": "url(assets/img/nilfgaard/heroTiborEggebraht_10.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroTrrissPussygold_7": {
-          "name": "heroTrissPussygold_7",
-          "bg": "url(assets/img/nilfgaard/heroTrissPussygold_7.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -929,6 +929,98 @@
           }
         }
       },
+      "hero": {
+        "heroAvalakh_0_spy": {
+          "name": "heroAvalakh_0_spy",
+          "bg": "url(assets/img/monsters/heroAvalakh_0_spy.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroCeiran_8_boost": {
+          "name": "heroCeiran_8_boost",
+          "bg": "url(assets/img/monsters/heroCeiran_8_boost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroCiri_15": {
+          "name": "heroCiri_15",
+          "bg": "url(assets/img/monsters/heroCiri_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroDraug_10": {
+          "name": "heroDraug_10",
+          "bg": "url(assets/img/monsters/heroDraug_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroEnifer_7_live": {
+          "name": "heroEnifer_7_live",
+          "bg": "url(assets/img/monsters/heroEnifer_7_live.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroGeralt_15": {
+          "name": "heroGeralt_15",
+          "bg": "url(assets/img/monsters/heroGeralt_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroImlerih_10": {
+          "name": "heroImlerih_10",
+          "bg": "url(assets/img/monsters/heroImlerih_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroLeshin_10": {
+          "name": "heroLeshin_10",
+          "bg": "url(assets/img/monsters/heroLeshin_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroTriss_7": {
+          "name": "heroTriss_7",
+          "bg": "url(assets/img/monsters/heroTriss_7.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
       "melee": {
         "meleСow_0_bait": {
           "name": "meleСow_0_bait",
@@ -1415,98 +1507,6 @@
           }
         }
       },
-      "hero": {
-        "heroAvalakh_0_spy": {
-          "name": "heroAvalakh_0_spy",
-          "bg": "url(assets/img/monsters/heroAvalakh_0_spy.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroCeiran_8_boost": {
-          "name": "heroCeiran_8_boost",
-          "bg": "url(assets/img/monsters/heroCeiran_8_boost.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroCiri_15": {
-          "name": "heroCiri_15",
-          "bg": "url(assets/img/monsters/heroCiri_15.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroDraug_10": {
-          "name": "heroDraug_10",
-          "bg": "url(assets/img/monsters/heroDraug_10.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroEnifer_7_live": {
-          "name": "heroEnifer_7_live",
-          "bg": "url(assets/img/monsters/heroEnifer_7_live.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroGeralt_15": {
-          "name": "heroGeralt_15",
-          "bg": "url(assets/img/monsters/heroGeralt_15.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroImlerih_10": {
-          "name": "heroImlerih_10",
-          "bg": "url(assets/img/monsters/heroImlerih_10.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroLeshin_10": {
-          "name": "heroLeshin_10",
-          "bg": "url(assets/img/monsters/heroLeshin_10.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        },
-        "heroTriss_7": {
-          "name": "heroTriss_7",
-          "bg": "url(assets/img/monsters/heroTriss_7.png)",
-          "gamers": {
-            "Nikita": false,
-            "Alice": false,
-            "Anastasia": false,
-            "Fedor": false
-          }
-        }
-      },
       "spec": {
         "specDunny1": {
           "name": "specDunny1",
@@ -1776,7 +1776,822 @@
         }
       }
     },
-    "scoyataely": {},
-    "skellige": {}
+    "scoyataely": {
+
+    },
+    "skellige": {
+      "leaders": {
+        "liderBran": {
+          "name": "liderBran",
+          "bg": "url(assets/img/skellige/liderBran.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "liderKrahAnKrait": {
+          "name": "liderKrahAnKrait",
+          "bg": "url(assets/img/skellige/liderKrahAnKrait.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "hero": {
+        "heroAvalackh_0_spy": {
+          "name": "heroAvalackh_0_spy",
+          "bg": "url(assets/img/skellige/heroAvalackh_0_spy.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroCiri_15": {
+          "name": "heroCiri_15",
+          "bg": "url(assets/img/skellige/heroCiri_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroEnifer_7_live": {
+          "name": "heroEnifer_7_live",
+          "bg": "url(assets/img/skellige/heroEnifer_7_live.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroGeralt_15": {
+          "name": "heroGeralt_15",
+          "bg": "url(assets/img/skellige/heroGeralt_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroHyalmar_10": {
+          "name": "heroHyalmar_10",
+          "bg": "url(assets/img/skellige/heroHyalmar_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroKeris_10_call": {
+          "name": "heroKeris_10_call",
+          "bg": "url(assets/img/skellige/heroKeris_10_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroMyshovur_fungus": {
+          "name": "heroMyshovur_fungus",
+          "bg": "url(assets/img/skellige/heroMyshovur_fungus.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroTriss_7": {
+          "name": "heroTriss_7",
+          "bg": "url(assets/img/skellige/heroTriss_7.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "melee": {
+        "meleBerserk_4_bear": {
+          "name": "meleBerserk_4_bear",
+          "bg": "url(assets/img/skellige/meleBerserk_4_bear.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleBirnaBran_2_live": {
+          "name": "meleBirnaBran_2_live",
+          "bg": "url(assets/img/skellige/meleBirnaBran_2_live.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleBlacksmithTardaroh_4": {
+          "name": "meleBlacksmithTardaroh_4",
+          "bg": "url(assets/img/skellige/meleBlacksmithTardaroh_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleCaw_0_bait": {
+          "name": "meleCaw_0_bait",
+          "bg": "url(assets/img/skellige/meleCaw_0_bait.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleDonarHindar_4": {
+          "name": "meleDonarHindar_4",
+          "bg": "url(assets/img/skellige/meleDonarHindar_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleEmielRegis_5": {
+          "name": "meleEmielRegis_5",
+          "bg": "url(assets/img/skellige/meleEmielRegis_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleKambi_0_bait": {
+          "name": "meleKambi_0_bait",
+          "bg": "url(assets/img/skellige/meleKambi_0_bait.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleLugosBlue_6": {
+          "name": "meleLugosBlue_6",
+          "bg": "url(assets/img/skellige/meleLugosBlue_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleLugosCrazy_6": {
+          "name": "meleLugosCrazy_6",
+          "bg": "url(assets/img/skellige/meleLugosCrazy_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleLutic_2_horn": {
+          "name": "meleLutic_2_horn",
+          "bg": "url(assets/img/skellige/meleLutic_2_horn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleOlaf_12_boost": {
+          "name": "meleOlaf_12_boost",
+          "bg": "url(assets/img/skellige/meleOlaf_12_boost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleOlgerd_6_boost": {
+          "name": "meleOlgerd_6_boost",
+          "bg": "url(assets/img/skellige/meleOlgerd_6_boost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleSkaldHeimei_4": {
+          "name": "meleSkaldHeimei_4",
+          "bg": "url(assets/img/skellige/meleSkaldHeimei_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleSvanrige_4": {
+          "name": "meleSvanrige_4",
+          "bg": "url(assets/img/skellige/meleSvanrige_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleUdalrick_4": {
+          "name": "meleUdalrick_4",
+          "bg": "url(assets/img/skellige/meleUdalrick_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleVesemir_6": {
+          "name": "meleVesemir_6",
+          "bg": "url(assets/img/skellige/meleVesemir_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleVilentretenmert_7_dead": {
+          "name": "meleVilentretenmert_7_dead",
+          "bg": "url(assets/img/skellige/meleVilentretenmert_7_dead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWarriorAnKrait1_6_friend": {
+          "name": "meleWarriorAnKrait1_6_friend",
+          "bg": "url(assets/img/skellige/meleWarriorAnKrait_6_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWarriorAnKrait2_6_friend": {
+          "name": "meleWarriorAnKrait2_6_friend",
+          "bg": "url(assets/img/skellige/meleWarriorAnKrait_6_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWarriorAnKrait3_6_friend": {
+          "name": "meleWarriorAnKrait3_6_friend",
+          "bg": "url(assets/img/skellige/meleWarriorAnKrait_6_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWarriorDrummond1_4_friend": {
+          "name": "meleWarriorDrummond1_4_friend",
+          "bg": "url(assets/img/skellige/meleWarriorDrummond_4_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWarriorDrummond2_4_friend": {
+          "name": "meleWarriorDrummond2_4_friend",
+          "bg": "url(assets/img/skellige/meleWarriorDrummond_4_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWarriorDrummond3_4_friend": {
+          "name": "meleWarriorDrummond3_4_friend",
+          "bg": "url(assets/img/skellige/meleWarriorDrummond_4_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleZoltan_5": {
+          "name": "meleZoltan_5",
+          "bg": "url(assets/img/skellige/meleZoltan_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "long": {
+        "longArcherBrokvar1_6": {
+          "name": "longArcherBrokvar1_6",
+          "bg": "url(assets/img/skellige/longArcherBrokvar_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longArcherBrokvar2_6": {
+          "name": "longArcherBrokvar2_6",
+          "bg": "url(assets/img/skellige/longArcherBrokvar_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longArcherBrokvar3_6": {
+          "name": "longArcherBrokvar3_6",
+          "bg": "url(assets/img/skellige/longArcherBrokvar_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longEasyDrakkar1_4_call": {
+          "name": "longEasyDrakkar1_4_call",
+          "bg": "url(assets/img/skellige/longEasyDrakkar_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longEasyDrakkar2_4_call": {
+          "name": "longEasyDrakkar2_4_call",
+          "bg": "url(assets/img/skellige/longEasyDrakkar_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longEasyDrakkar3_4_call": {
+          "name": "longEasyDrakkar3_4_call",
+          "bg": "url(assets/img/skellige/longEasyDrakkar_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longGunterDark1_4_call": {
+          "name": "longGunterDark1_4_call",
+          "bg": "url(assets/img/skellige/longGunterDark_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longGunterDark2_4_call": {
+          "name": "longGunterDark2_4_call",
+          "bg": "url(assets/img/skellige/longGunterDark_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longGunterDark3_4_call": {
+          "name": "longGunterDark3_4_call",
+          "bg": "url(assets/img/skellige/longGunterDark_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longPirateDimun_6_dead": {
+          "name": "longPirateDimun_6_dead",
+          "bg": "url(assets/img/skellige/longPirateDimun_6_dead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longYoungBerserk1_2_bear": {
+          "name": "longYoungBerserk1_2_bear",
+          "bg": "url(assets/img/skellige/longYoungBerserk_2_bear.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longYoungBerserk2_2_bear": {
+          "name": "longYoungBerserk2_2_bear",
+          "bg": "url(assets/img/skellige/longYoungBerserk_2_bear.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longYoungBerserk3_2_bear": {
+          "name": "longYoungBerserk3_2_bear",
+          "bg": "url(assets/img/skellige/longYoungBerserk_2_bear.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "siege": {
+        "siegeDraigBon_2_horn": {
+          "name": "siegeDraigBon_2_horn",
+          "bg": "url(assets/img/skellige/siegeDraigBon_2_horn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeGunter_2_call": {
+          "name": "siegeGunter_2_call",
+          "bg": "url(assets/img/skellige/siegeGunter_2_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeHolgerBlackArm_4": {
+          "name": "siegeHolgerBlackArm_4",
+          "bg": "url(assets/img/skellige/siegeHolgerBlackArm_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeWariorDrakkar1_6_friend": {
+          "name": "siegeWariorDrakkar1_6_friend",
+          "bg": "url(assets/img/skellige/siegeWariorDrakkar_6_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeWariorDrakkar2_6_friend": {
+          "name": "siegeWariorDrakkar2_6_friend",
+          "bg": "url(assets/img/skellige/siegeWariorDrakkar_6_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeWariorDrakkar3_6_friend": {
+          "name": "siegeWariorDrakkar3_6_friend",
+          "bg": "url(assets/img/skellige/siegeWariorDrakkar_6_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "spec": {
+        "specDunny1": {
+          "name": "specDunny1",
+          "bg": "url(assets/img/skellige/specDunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDunny2": {
+          "name": "specDunny2",
+          "bg": "url(assets/img/skellige/specDunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDunny3": {
+          "name": "specDunny3",
+          "bg": "url(assets/img/skellige/specDunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDead1": {
+          "name": "specDead1",
+          "bg": "url(assets/img/skellige/specDead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDead2": {
+          "name": "specDead2",
+          "bg": "url(assets/img/skellige/specDead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDead3": {
+          "name": "specDead3",
+          "bg": "url(assets/img/skellige/specDead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFrost1": {
+          "name": "specFrost1",
+          "bg": "url(assets/img/skellige/specFrost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFrost2": {
+          "name": "specFrost2",
+          "bg": "url(assets/img/skellige/specFrost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFrost3": {
+          "name": "specFrost3",
+          "bg": "url(assets/img/skellige/specFrost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specHorn1": {
+          "name": "specHorn1",
+          "bg": "url(assets/img/skellige/specHorn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specHorn2": {
+          "name": "specHorn2",
+          "bg": "url(assets/img/skellige/specHorn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specHorn3": {
+          "name": "specHorn3",
+          "bg": "url(assets/img/skellige/specHorn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specMist1": {
+          "name": "specMist1",
+          "bg": "url(assets/img/skellige/specMist.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specMist2": {
+          "name": "specMist2",
+          "bg": "url(assets/img/skellige/specMist.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specMist3": {
+          "name": "specMist3",
+          "bg": "url(assets/img/skellige/specMist.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specRainfall1": {
+          "name": "specRainfall1",
+          "bg": "url(assets/img/skellige/specRainfall.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specRainfall2": {
+          "name": "specRainfall2",
+          "bg": "url(assets/img/skellige/specRainfall.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specRainfall3": {
+          "name": "specRainfall3",
+          "bg": "url(assets/img/skellige/specRainfall.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specSunny1": {
+          "name": "specSunny1",
+          "bg": "url(assets/img/skellige/specSunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specSunny2": {
+          "name": "specSunny2",
+          "bg": "url(assets/img/skellige/specSunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specSunny3": {
+          "name": "specSunny3",
+          "bg": "url(assets/img/skellige/specSunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specShtorm1": {
+          "name": "specShtorm1",
+          "bg": "url(assets/img/skellige/specShtorm.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specShtorm2": {
+          "name": "specShtorm2",
+          "bg": "url(assets/img/skellige/specShtorm.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specShtorm3": {
+          "name": "specShtorm3",
+          "bg": "url(assets/img/skellige/specShtorm.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFungus1": {
+          "name": "specFungus1",
+          "bg": "url(assets/img/skellige/specFungus.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFungus2": {
+          "name": "specFungus2",
+          "bg": "url(assets/img/skellige/specFungus.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFungus3": {
+          "name": "specFungus3",
+          "bg": "url(assets/img/skellige/specFungus.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      }
+    }
   }
 }
