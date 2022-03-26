@@ -20,9 +20,9 @@
       "name": "northernRealms",
       "color": "#0087ff",
       "colorText": "#70c3ff",
-      "logo": "url(assets/img/northernRealms/logoNorthernRealms.png",
-      "bgBack": "url(assets/img/monsters/backgrounds/bgCardMonsters.png)",
-      "bg": "url(assets/img/northernRealms/backgroundNorthernRealms.jpg)"
+      "logo": "url(assets/img/northernRealms/backgrounds/logoNorthernRealms.png",
+      "bgBack": "url(assets/img/northernRealms/backgrounds/bgCardNorhernRealms.png)",
+      "bg": "url(assets/img/northernRealms/backgrounds/backgroundNorthernRealms.jpg)"
     },
     "scoyataely": {
       "name": "scoyataely",
@@ -1752,9 +1752,39 @@
     },
     "northernRealms": {
       "leaders": {
-        "liderEredinBreakkGlass1": {
-          "name": "liderEredinBreakkGlass1",
-          "bg": "url(assets/img/monsters/liderEredinBreakkGlass.png)",
+        "liderСonqueror": {
+          "name": "liderСonqueror",
+          "bg": "url(assets/img/northernRealms/liderСonqueror.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "liderKingTimeria": {
+          "name": "liderKingTimeria",
+          "bg": "url(assets/img/northernRealms/liderKingTimeria.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "liderSonMedella": {
+          "name": "liderSonMedella",
+          "bg": "url(assets/img/northernRealms/liderSonMedella.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "liderTronLord": {
+          "name": "liderTronLord",
+          "bg": "url(assets/img/northernRealms/liderTronLord.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -1763,10 +1793,788 @@
           }
         }
       },
-      "melee": {
-        "meleGroupNaker_21": {
-          "name": "meleGroupNaker_21",
-          "bg": "url(assets/img/monsters/meleGroupNaker_2.png)",
+      "hero": {
+        "heroAvalach_0_spy": {
+          "name": "heroAvalach_0_spy",
+          "bg": "url(assets/img/northernRealms/heroAvalach_0_spy.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroCiri_15": {
+          "name": "heroCiri_15",
+          "bg": "url(assets/img/northernRealms/heroCiri_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroEnifer_7_live": {
+          "name": "heroEnifer_7_live",
+          "bg": "url(assets/img/northernRealms/heroEnifer_7_live.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroEsteradTissen_10": {
+          "name": "heroEsteradTissen_10",
+          "bg": "url(assets/img/northernRealms/heroEsteradTissen_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroFilippaElhart_10": {
+          "name": "heroFilippaElhart_10",
+          "bg": "url(assets/img/northernRealms/heroFilippaElhart_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroGeralt_15": {
+          "name": "heroGeralt_15",
+          "bg": "url(assets/img/northernRealms/heroGeralt_15.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroNatallis_10": {
+          "name": "heroNatallis_10",
+          "bg": "url(assets/img/northernRealms/heroNatallis_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroRoshe_10": {
+          "name": "heroRoshe_10",
+          "bg": "url(assets/img/northernRealms/heroRoshe_10.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "heroTriss_7": {
+          "name": "heroTriss_7",
+          "bg": "url(assets/img/northernRealms/heroTriss_7.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "melee":{
+        "meleByanka_5": {
+          "name": "meleByanka_5",
+          "bg": "url(assets/img/northernRealms/meleByanka_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleCaw_0_bait": {
+          "name": "meleCaw_0_bait",
+          "bg": "url(assets/img/northernRealms/meleCaw_0_bait.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleDikstra_4_spy": {
+          "name": "meleDikstra_4_spy",
+          "bg": "url(assets/img/northernRealms/meleDikstra_4_spy.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleEmielRegis_5": {
+          "name": "meleEmielRegis_5",
+          "bg": "url(assets/img/northernRealms/meleEmielRegis_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleGrebanayaPechtura1_1_friend": {
+          "name": "meleGrebanayaPechtura1_1_friend",
+          "bg": "url(assets/img/northernRealms/meleGrebanayaPechtura_1_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleGrebanayaPechtura2_1_friend": {
+          "name": "meleGrebanayaPechtura2_1_friend",
+          "bg": "url(assets/img/northernRealms/meleGrebanayaPechtura_1_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleGrebanayaPechtura3_1_friend": {
+          "name": "meleGrebanayaPechtura3_1_friend",
+          "bg": "url(assets/img/northernRealms/meleGrebanayaPechtura_1_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleLutic_2_horn": {
+          "name": "meleLutic_2_horn",
+          "bg": "url(assets/img/northernRealms/meleLutic_2_horn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleOlgerd_6_boost": {
+          "name": "meleOlgerd_6_boost",
+          "bg": "url(assets/img/northernRealms/meleOlgerd_6_boost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "melePrincStennis_5_spy": {
+          "name": "melePrincStennis_5_spy",
+          "bg": "url(assets/img/northernRealms/melePrincStennis_5_spy.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleRedanPehot1_1": {
+          "name": "meleRedanPehot1_1",
+          "bg": "url(assets/img/northernRealms/meleRedanPehot_1.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleRedanPehot2_1": {
+          "name": "meleRedanPehot2_1",
+          "bg": "url(assets/img/northernRealms/meleRedanPehot_1.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleVesemir_6": {
+          "name": "meleVesemir_6",
+          "bg": "url(assets/img/northernRealms/meleVesemir_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleVilentretenmert_7_dead": {
+          "name": "meleVilentretenmert_7_dead",
+          "bg": "url(assets/img/northernRealms/meleVilentretenmert_7_dead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWariorBlueStrips1_4_friend": {
+          "name": "meleWariorBlueStrips1_4_friend",
+          "bg": "url(assets/img/northernRealms/meleWariorBlueStrips_4_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWariorBlueStrips2_4_friend": {
+          "name": "meleWariorBlueStrips2_4_friend",
+          "bg": "url(assets/img/northernRealms/meleWariorBlueStrips_4_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleWariorBlueStrips3_4_friend": {
+          "name": "meleWariorBlueStrips3_4_friend",
+          "bg": "url(assets/img/northernRealms/meleWariorBlueStrips_4_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleYarpenZigrin_2": {
+          "name": "meleYarpenZigrin_2",
+          "bg": "url(assets/img/northernRealms/meleYarpenZigrin_2.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleZigfridDenesle_5": {
+          "name": "meleZigfridDenesle_5",
+          "bg": "url(assets/img/northernRealms/meleZigfridDenesle_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "meleZoltan_5": {
+          "name": "meleZoltan_5",
+          "bg": "url(assets/img/northernRealms/meleZoltan_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "long": {
+        "longDetmold_6": {
+          "name": "longDetmold_6",
+          "bg": "url(assets/img/northernRealms/longDetmold_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longGunterDark1_4_call": {
+          "name": "longGunterDark1_4_call",
+          "bg": "url(assets/img/northernRealms/longGunterDark_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longGunterDark2_4_call": {
+          "name": "longGunterDark2_4_call",
+          "bg": "url(assets/img/northernRealms/longGunterDark_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longGunterDark3_4_call": {
+          "name": "longGunterDark3_4_call",
+          "bg": "url(assets/img/northernRealms/longGunterDark_4_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longKeyra_5": {
+          "name": "longKeyra_5",
+          "bg": "url(assets/img/northernRealms/longKeyra_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longRubaily1_5_friend": {
+          "name": "longRubaily1_5_friend",
+          "bg": "url(assets/img/northernRealms/longRubaily_5_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longRubaily2_5_friend": {
+          "name": "longRubaily2_5_friend",
+          "bg": "url(assets/img/northernRealms/longRubaily_5_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longRubaily3_5_friend": {
+          "name": "longRubaily3_5_friend",
+          "bg": "url(assets/img/northernRealms/longRubaily_5_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longSabrinaGlevissig_4": {
+          "name": "longSabrinaGlevissig_4",
+          "bg": "url(assets/img/northernRealms/longSabrinaGlevissig_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longSheala_5": {
+          "name": "longSheala_5",
+          "bg": "url(assets/img/northernRealms/longSheala_5.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "longSheldonSkaggs_4": {
+          "name": "longSheldonSkaggs_4",
+          "bg": "url(assets/img/northernRealms/longSheldonSkaggs_4.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "siege": {
+        "siegeBallista1_6": {
+          "name": "siegeBallista1_6",
+          "bg": "url(assets/img/northernRealms/siegeBallista_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeBallista2_6": {
+          "name": "siegeBallista2_6",
+          "bg": "url(assets/img/northernRealms/siegeBallista_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeCatapult1_8_friend": {
+          "name": "siegeCatapult1_8_friend",
+          "bg": "url(assets/img/northernRealms/siegeCatapult_8_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeCatapult2_8_friend": {
+          "name": "siegeCatapult2_8_friend",
+          "bg": "url(assets/img/northernRealms/siegeCatapult_8_friend.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeDoktorHorugvi_5_live": {
+          "name": "siegeDoktorHorugvi_5_live",
+          "bg": "url(assets/img/northernRealms/siegeDoktorHorugvi_5_live.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeGunter_2_call": {
+          "name": "siegeGunter_2_call",
+          "bg": "url(assets/img/northernRealms/siegeGunter_2_call.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeKaedvenMaster1_1_boost": {
+          "name": "siegeKaedvenMaster1_1_boost",
+          "bg": "url(assets/img/northernRealms/siegeKaedvenMaster_1_boost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeKaedvenMaster2_1_boost": {
+          "name": "siegeKaedvenMaster2_1_boost",
+          "bg": "url(assets/img/northernRealms/siegeKaedvenMaster_1_boost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeKaedvenMaster3_1_boost": {
+          "name": "siegeKaedvenMaster3_1_boost",
+          "bg": "url(assets/img/northernRealms/siegeKaedvenMaster_1_boost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeTaler_1_spy": {
+          "name": "siegeTaler_1_spy",
+          "bg": "url(assets/img/northernRealms/siegeTaler_1_spy.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeTower1_6": {
+          "name": "siegeTower1_6",
+          "bg": "url(assets/img/northernRealms/siegeTower_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeTower2_6": {
+          "name": "siegeTower2_6",
+          "bg": "url(assets/img/northernRealms/siegeTower_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeTrebushet1_6": {
+          "name": "siegeTrebushet1_6",
+          "bg": "url(assets/img/northernRealms/siegeTrebushet_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "siegeTrebushet2_6": {
+          "name": "siegeTrebushet2_6",
+          "bg": "url(assets/img/northernRealms/siegeTrebushet_6.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        }
+      },
+      "spec": {
+        "specDunny1": {
+          "name": "specDunny1",
+          "bg": "url(assets/img/northernRealms/specDunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDunny2": {
+          "name": "specDunny2",
+          "bg": "url(assets/img/northernRealms/specDunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDunny3": {
+          "name": "specDunny3",
+          "bg": "url(assets/img/northernRealms/specDunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDead1": {
+          "name": "specDead1",
+          "bg": "url(assets/img/northernRealms/specDead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDead2": {
+          "name": "specDead2",
+          "bg": "url(assets/img/northernRealms/specDead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specDead3": {
+          "name": "specDead3",
+          "bg": "url(assets/img/northernRealms/specDead.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFrost1": {
+          "name": "specFrost1",
+          "bg": "url(assets/img/northernRealms/specFrost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFrost2": {
+          "name": "specFrost2",
+          "bg": "url(assets/img/northernRealms/specFrost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specFrost3": {
+          "name": "specFrost3",
+          "bg": "url(assets/img/northernRealms/specFrost.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specHorn1": {
+          "name": "specHorn1",
+          "bg": "url(assets/img/northernRealms/specHorn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specHorn2": {
+          "name": "specHorn2",
+          "bg": "url(assets/img/northernRealms/specHorn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specHorn3": {
+          "name": "specHorn3",
+          "bg": "url(assets/img/northernRealms/specHorn.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specMist1": {
+          "name": "specMist1",
+          "bg": "url(assets/img/northernRealms/specMist.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specMist2": {
+          "name": "specMist2",
+          "bg": "url(assets/img/northernRealms/specMist.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specMist3": {
+          "name": "specMist3",
+          "bg": "url(assets/img/northernRealms/specMist.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specRainfall1": {
+          "name": "specRainfall1",
+          "bg": "url(assets/img/northernRealms/specRainfall.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specRainfall2": {
+          "name": "specRainfall2",
+          "bg": "url(assets/img/northernRealms/specRainfall.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specRainfall3": {
+          "name": "specRainfall3",
+          "bg": "url(assets/img/northernRealms/specRainfall.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specSunny1": {
+          "name": "specSunny1",
+          "bg": "url(assets/img/northernRealms/specSunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specSunny2": {
+          "name": "specSunny2",
+          "bg": "url(assets/img/northernRealms/specSunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specSunny3": {
+          "name": "specSunny3",
+          "bg": "url(assets/img/northernRealms/specSunny.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specShtorm1": {
+          "name": "specShtorm1",
+          "bg": "url(assets/img/northernRealms/specShtorm.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specShtorm2": {
+          "name": "specShtorm2",
+          "bg": "url(assets/img/northernRealms/specShtorm.png)",
+          "gamers": {
+            "Nikita": false,
+            "Alice": false,
+            "Anastasia": false,
+            "Fedor": false
+          }
+        },
+        "specShtorm3": {
+          "name": "specShtorm3",
+          "bg": "url(assets/img/northernRealms/specShtorm.png)",
           "gamers": {
             "Nikita": false,
             "Alice": false,
@@ -1776,9 +2584,7 @@
         }
       }
     },
-    "scoyataely": {
-
-    },
+    "scoyataely": {},
     "skellige": {
       "leaders": {
         "liderBran": {
