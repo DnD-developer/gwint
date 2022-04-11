@@ -11,11 +11,15 @@
     }
 
     .card-item {
+        &:nth-child(3n+2) {
+            margin-left: 0;
+            margin-right: 0;
+        }
         &:nth-child(2n+2){
             margin-left: 16%;
             margin-right: 0;
         }
-        &:nth-child(3){
+        &:nth-child(3n){
             margin-top: 20px;
         }
     }
