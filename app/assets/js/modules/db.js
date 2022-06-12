@@ -52,8 +52,11 @@ function dbFractionLocal() {
             bg: "url(assets/img/skellige/backgroundSkellige.jpg)"
         }
     }
-
     return dbFraction
+}
+function dbGamers() {
+    const gamers = ["Nikita", "Alice", "Anastasia", "Fedor"]
+    return gamers
 }
 function dbGamers() {
     const gamers = ["Nikita", "Alice", "Anastasia", "Fedor"]
