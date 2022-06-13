@@ -101,4 +101,9 @@ export let filter = {
         set dbLocal(object) {
             this.db = object
         }
+    },
+    dbGamers = {
+        set dbLocal(object) {
+            this.fb = object
+        }
     }

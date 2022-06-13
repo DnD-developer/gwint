@@ -19,9 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
             dbFractions.db = JSON.parse(JSON.stringify(frac))
         })
         .then(() => {
+            parseDbFraction("http://localhost:3000/dbGamers").then((gamer) => {
+                dbGamers.db = JSON.parse(JSON.stringify(gamer))
+            })
+        })
+        .then(() => {
             parseDbFraction("http://localhost:3000/dbCards").then((card) => {
                 dbCards.db = JSON.parse(JSON.stringify(card))
-                filter.class = new Filter(dbCards.db, dbFractions.db)
+                filter.class = new Filter(dbCards.db, dbFractions.db, dbGamers.db)
                 filter.class.init()
                 sliders()
                 filter.class.moveCard()
