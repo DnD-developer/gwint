@@ -88,21 +88,33 @@ export { parseDbFraction }
 export { putDbFraction }
 export { zeroFilter }
 export let filter = {
+        get classLocal() {
+            return this.class
+        },
         set classLocal(object) {
             this.class = object
         }
     },
     dbFractions = {
+        get dbLocal() {
+            return this
+        },
         set dbLocal(object) {
             this.db = object
         }
     },
     dbCards = {
+        get dbLocal() {
+            return this
+        },
         set dbLocal(object) {
             this.db = object
         }
     },
     dbGamers = {
+        get dbLocal() {
+            return this
+        },
         set dbLocal(object) {
             this.fb = object
         }

@@ -16,20 +16,20 @@ document.addEventListener("DOMContentLoaded", () => {
     scroll()
     parseDbFraction("http://localhost:3000/dbFraction")
         .then((frac) => {
-            dbFractions.db = JSON.parse(JSON.stringify(frac))
+            dbFractions.dbLocal = JSON.parse(JSON.stringify(frac))
         })
         .then(() => {
             parseDbFraction("http://localhost:3000/dbGamers").then((gamer) => {
-                dbGamers.db = JSON.parse(JSON.stringify(gamer))
+                dbGamers.dbLocal = JSON.parse(JSON.stringify(gamer))
             })
         })
         .then(() => {
             parseDbFraction("http://localhost:3000/dbCards").then((card) => {
-                dbCards.db = JSON.parse(JSON.stringify(card))
-                filter.class = new Filter(dbCards.db, dbFractions.db, dbGamers.db)
-                filter.class.init()
+                dbCards.dbLocal = JSON.parse(JSON.stringify(card))
+                filter.classLocal = new Filter(dbCards.dbLocal, dbFractions.dbLocal, dbGamers.dbLocal)
+                filter.classLocal.init()
                 sliders()
-                filter.class.moveCard()
+                filter.classLocal.moveCard()
                 zeroFilter()
             })
         })
