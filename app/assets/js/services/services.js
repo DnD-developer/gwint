@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import { filter } from "../modules/db"
+=======
+>>>>>>> b6d46e2 (Update ajax response and push internet)
 import { tabsCategoriesCard } from "../modules/tabsCategoriesCard"
 
 function init() {
@@ -54,7 +57,6 @@ function zeroFilter() {
 async function parseDbFraction(url) {
     let res = await fetch(url)
     if (!res.ok) {
-        console.log("хрень")
         throw new Error(`Could not fetch ${url}, status: ${res.status}`)
     }
     return await res.json()
@@ -97,25 +99,25 @@ export let filter = {
     },
     dbFractions = {
         get dbLocal() {
-            return this
+            return this.fractions
         },
         set dbLocal(object) {
-            this.db = object
+            this.fractions = object
         }
     },
     dbCards = {
         get dbLocal() {
-            return this
+            return this.cards
         },
         set dbLocal(object) {
-            this.db = object
+            this.cards = object
         }
     },
     dbGamers = {
         get dbLocal() {
-            return this
+            return this.gamers
         },
         set dbLocal(object) {
-            this.fb = object
+            this.gamers = object
         }
     }
