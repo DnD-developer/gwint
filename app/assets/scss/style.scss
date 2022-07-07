@@ -112,7 +112,7 @@
     padding-right: 21px;
     overflow-x: hidden;
     overflow-y: auto;
-    height: calc(76vh - 150px);
+    max-height: calc(76vh - 150px);
 
     .simplebar-content {
         display: flex;
@@ -317,13 +317,14 @@
 
 .slider-gamer {
     position: relative;
-    max-width: 670px;
-    margin: 0 auto;
-    overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    max-width: 670px;
     max-height: 130px;
-    height: 10vh;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    overflow: hidden;
 
     .swiper-wrapper {
         height: auto !important;

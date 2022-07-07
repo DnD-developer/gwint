@@ -184,7 +184,7 @@ footer {
 }
 
 .slider-gamer__prev {
-    transform: translateY(-50%) rotate(180deg) !important;
+    transform: translateY(0) rotate(180deg) !important;
 }
 
 .slider-title {
@@ -207,8 +207,8 @@ footer {
 .slider-gamer__next {
     background-color: transparent;
     border: none;
-    width: 53px;
-    height: 46px;
+    width: 54px;
+    height: 50px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -222,7 +222,6 @@ footer {
     }
 
     .svg-shadow {
-        // will-change: opacity;
         transition: opacity 0.5s;
         opacity: 0;
     }
@@ -250,6 +249,14 @@ footer {
             stroke: #ffffff;
         }
     }
+}
+
+.slider-gamer__prev {
+    top: -5px;
+}
+.slider-gamer__next {
+    transform: translateY(0);
+    top: -5px;
 }
 
 //!END SWAPER ------------------
