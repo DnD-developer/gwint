@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import { filter } from "../modules/db"
-=======
->>>>>>> b6d46e2 (Update ajax response and push internet)
 import { tabsCategoriesCard } from "../modules/tabsCategoriesCard"
 
 function init() {
