@@ -1,4 +1,5 @@
 "use strict"
+
 import { sliders } from "./modules/sliders.js"
 import { init } from "./services/services"
 import { scroll } from "./modules/scroll"
@@ -6,25 +7,25 @@ import { Filter } from "./modules/filter"
 import { parseDbFraction } from "./services/services"
 import { putDbFraction } from "./services/services"
 import { zeroFilter } from "./services/services"
-import { filter, dbFractions, dbCards, dbGamers } from "./services/services"
+import { filter, dbFractions, dbCards } from "./services/services"
 
 document.addEventListener("DOMContentLoaded", () => {
     const preloader = document.querySelector(".popup-preloader")
     preloader.style.display = "flex"
     init()
     scroll()
-    parseDbFraction("https://gwint.mamp:8890/dbProduction.json")
+    parseDbFraction("http://localhost:3000/dbFraction")
         .then((frac) => {
-            dbFractions.dbLocal = JSON.parse(JSON.stringify(frac.dbFraction))
+            dbFractions.dbLocal = JSON.parse(JSON.stringify(frac))
         })
         .then(() => {
-            parseDbFraction("https://gwint.mamp:8890/dbProduction.json").then((gamer) => {
-                dbGamers.dbLocal = JSON.parse(JSON.stringify(gamer.dbGamers))
+            parseDbFraction("http://localhost:3000/dbGamers").then((gamer) => {
+                dbGamers.dbLocal = JSON.parse(JSON.stringify(gamer))
             })
         })
         .then(() => {
-            parseDbFraction("https://gwint.mamp:8890/dbProduction.json").then((card) => {
-                dbCards.dbLocal = JSON.parse(JSON.stringify(card.dbCards))
+            parseDbFraction("http://localhost:3000/dbCards").then((card) => {
+                dbCards.dbLocal = JSON.parse(JSON.stringify(card))
                 filter.classLocal = new Filter(dbCards.dbLocal, dbFractions.dbLocal, dbGamers.dbLocal)
                 filter.classLocal.init()
                 sliders()
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelector(".random-cards__bigcard-btn").addEventListener("click", () => {
         preloader.style.display = "flex"
-        filter.classLocal.randomaizer()
-        putDbFraction("https://gwint.mamp:8890/dbProduction.json", JSON.parse(JSON.stringify({ dbCards: dbCards.dbLocal, dbFraction: dbCards.dbLocal, dbGamers: dbGamers.dbLocal }))).finally(() => (preloader.style.display = "none"))
+        filter.class.randomaizer()
+        putDbFraction("http://localhost:3000/dbCards", JSON.parse(JSON.stringify(dbCards.db))).finally(() => (preloader.style.display = "none"))
     })
 })

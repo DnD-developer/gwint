@@ -5,53 +5,53 @@ let { src, dest, watch, parallel } = require("gulp"),
     rename = require("gulp-rename"),
     pug = require("gulp-pug"),
     autoprefixer = require("gulp-autoprefixer"),
-    sass = require("gulp-sass")(require("sass"));
+    sass = require("gulp-sass")(require("sass"))
 
-const webpack = require("webpack-stream");
+const webpack = require("webpack-stream")
 
-const dist = "./dist/";
-const distServer = "/Users/nikitakuvasov/Sites/Gwint/";
+const dist = "./dist/"
+const distServer = "/Users/nikitakuvasov/Sites/Gwint/"
 
 function gulpPug() {
     return src("app/*.pug")
         .pipe(
             pug({
-                pretty: true,
-            }),
+                pretty: true
+            })
         )
         .pipe(dest("app"))
         .pipe(
             browserSync.reload({
-                stream: true,
-            }),
-        );
+                stream: true
+            })
+        )
 }
 
 function scss() {
     return src("app/assets/scss/**/*.scss")
         .pipe(
             sass({
-                outputStyle: "compressed",
-            }),
+                outputStyle: "compressed"
+            })
         )
         .pipe(
             autoprefixer({
-                overrideBrowserslist: ["last 8 versions"],
-            }),
+                overrideBrowserslist: ["last 8 versions"]
+            })
         )
         .pipe(
             rename({
-                suffix: ".min",
-            }),
+                suffix: ".min"
+            })
         )
         .pipe(dest("app/assets/css"))
         .pipe(dest(dist + "/assets/css"))
         .pipe(dest(distServer + "/assets/css"))
         .pipe(
             browserSync.reload({
-                stream: true,
-            }),
-        );
+                stream: true
+            })
+        )
 }
 
 function css() {
@@ -60,7 +60,7 @@ function css() {
         "node_modules/slick-carousel/slick/slick.css",
         //'node_modules/magnific-popup/dist/magnific-popup.css',
         "node_modules/simplebar/dist/simplebar.min.css",
-        "node_modules/animate.css/animate.css",
+        "node_modules/animate.css/animate.css"
         //'node_modules/rateyo/src/jquery.rateyo.css',
         //'node_modules/ion-rangeslider/css/ion.rangeSlider.css',
         //'node_modules/jquery-form-styler/dist/jquery.formstyler.css',
@@ -70,13 +70,13 @@ function css() {
         .pipe(dest("app/assets/scss"))
         .pipe(
             browserSync.reload({
-                stream: true,
-            }),
-        );
+                stream: true
+            })
+        )
 }
 
 function html() {
-    return src("app/*.html").pipe(dest(dist)).pipe(dest(distServer)).pipe(browserSync.stream());
+    return src("app/*.html").pipe(dest(dist)).pipe(dest(distServer)).pipe(browserSync.stream())
 }
 
 function buildJs() {
@@ -85,7 +85,7 @@ function buildJs() {
             webpack({
                 mode: "development",
                 output: {
-                    filename: "bundle.js",
+                    filename: "bundle.js"
                 },
                 module: {
                     rules: [
@@ -101,39 +101,39 @@ function buildJs() {
                                             {
                                                 // debug: true,
                                                 corejs: 3,
-                                                useBuiltIns: "usage",
-                                            },
-                                        ],
-                                    ],
-                                },
-                            },
-                        },
-                    ],
-                },
-            }),
+                                                useBuiltIns: "usage"
+                                            }
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            })
         )
         .pipe(dest(dist + "assets/js"))
         .pipe(dest(distServer + "assets/js"))
-        .on("end", browserSync.reload);
+        .on("end", browserSync.reload)
 }
 
 function copyAssets() {
     return src(["./app/assets/**/*.*", "!app/assets/scss/**/*.*", "!app/assets/js/**/*.*"])
         .pipe(dest(dist + "/assets"))
         .pipe(dest(distServer + "/assets"))
-        .on("end", browserSync.reload);
+        .on("end", browserSync.reload)
 }
 
 function watching() {
     browserSync.init({
         server: dist,
         port: 4000,
-        notify: true,
-    });
-    watch("app/**/*.pug", parallel(gulpPug));
-    watch("app/**/*.html", parallel(html));
-    watch("app/assets/scss/**/*.scss", parallel(scss));
-    watch("app/assets/js/**/*.js", parallel(buildJs));
+        notify: true
+    })
+    watch("app/**/*.pug", parallel(gulpPug))
+    watch("app/**/*.html", parallel(html))
+    watch("app/assets/scss/**/*.scss", parallel(scss))
+    watch("app/assets/js/**/*.js", parallel(buildJs))
 }
 
 // gulp.task ('images', function(){
@@ -181,4 +181,4 @@ function watching() {
 // });
 // gulp.task('build', gulp.series("build-prod-js"));
 
-exports.default = parallel(gulpPug, html, css, buildJs, copyAssets, watching);
+exports.default = parallel(gulpPug, html, css, scss, buildJs, copyAssets, watching)
