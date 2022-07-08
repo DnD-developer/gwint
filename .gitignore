@@ -6,5 +6,7 @@
 .vscode
 
 node_modules/
+**/css
+index.html
 package-lock.json
 dist/
