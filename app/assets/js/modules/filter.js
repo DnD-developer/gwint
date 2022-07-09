@@ -1,4 +1,5 @@
 import { changeCards } from "../services/services";
+import { putDbFraction } from "../services/services";
 
 export class Filter {
     constructor(db, dblocal, dbGamers) {
@@ -85,7 +86,7 @@ export class Filter {
             for (let card in this.dbFraction[fraction][group]) {
                 if (this.dbFraction[fraction][group][card].gamers[gamer]) {
                     total += 1;
-                    if (group == "special") {
+                    if (group == "spec") {
                         totalSpecial += 1;
                     } else if (group != "leaders") {
                         totalUnit += 1;
@@ -234,11 +235,13 @@ export class Filter {
     }
 
     moveCard() {
-        const wrapperAllCardsDomElement = document.querySelector(".all-cards__content"),
+        const preloader = document.querySelector(".popup-preloader"),
+            wrapperAllCardsDomElement = document.querySelector(".all-cards__content"),
             wrapperDeckCardsDomElement = document.querySelector(".deck-cards__content");
 
         let changeGamersCard = (e, nameCardsContent, gamerTrigger) => {
             if (e.target && (e.target.classList.contains("move-card-svg") || e.target.closest(".move-card-svg"))) {
+                preloader.style.display = "flex";
                 let fraction = document.querySelector(".slider-fraction .swiper-slide-active").dataset.fraction,
                     activeGamer = document.querySelector(".slider-gamer .swiper-slide-active").dataset.gamer,
                     group = document.querySelector(`.${nameCardsContent}__tabs-trigger li.active-tab`).dataset.group;
@@ -249,6 +252,7 @@ export class Filter {
                 }
                 this.renderCard(document.querySelector(`.all-cards__tabs-trigger li.active-tab`));
                 this.renderCard(document.querySelector(`.deck-cards__tabs-trigger li.active-tab`));
+                putDbFraction("http://localhost:3000/dbCards", JSON.parse(JSON.stringify(this.dbFraction))).finally(() => (preloader.style.display = "none"));
             }
         };
 
