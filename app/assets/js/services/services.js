@@ -1,3 +1,6 @@
+import {filter} from "../modules/db";
+import {tabsCategoriesCard} from "../modules/tabsCategoriesCard";
+
 function init() {
         if ('ontouchstart' in window) {
             document.querySelector(".random-cards__bigcard").addEventListener("touchstart",()=>{
@@ -45,5 +48,14 @@ function init() {
     
     }
 
+    function zeroFilter() {
+        tabsCategoriesCard(".all-cards__tabs-trigger li", ".all-cards__tabs-content h4");
+        tabsCategoriesCard(".deck-cards__tabs-trigger li", ".deck-cards__tabs-content h4");
+        filter.changeAkcent();
+        filter.renderCard(document.querySelector(".all-cards__tabs-trigger li:first-child"));
+        filter.renderCard(document.querySelector(".deck-cards__tabs-trigger li:first-child"));
+    }
+
 export{init};
 export{changeCards}
+export{zeroFilter}

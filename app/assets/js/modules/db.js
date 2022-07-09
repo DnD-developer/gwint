@@ -1,12 +1,10 @@
-import {
-    Filter
-} from "./filter";
+import { Filter } from "./filter"
 
 function dbFractionLocal() {
     const dbFraction = {
-
         nilfgaard: {
             name: "nilfgaard",
+            nameText: "Nilfgaard Empire",
             color: "#FF9100",
             colorText: "#FFC803",
             logo: "url(assets/img/nilfgaard/logoNilfgaard.png",
@@ -16,39 +14,50 @@ function dbFractionLocal() {
 
         monsters: {
             name: "monsters",
+            nameText: "Monsters",
             color: "#FF0000",
             colorText: "#FF0000",
             logo: "url(assets/img/monsters/logoMonsters.png",
             bgBack: "url(assets/img/monsters/bgCardMonsters.png)",
             bg: "url(assets/img/monsters/backgroundMonsters.jpg)"
         },
+
         northernRealms: {
             name: "northernRealms",
+            nameText: "Northern Realms",
             color: "#0087ff",
             colorText: "#70c3ff",
             logo: "url(assets/img/northernRealms/logoNorthernRealms.png",
             bgBack: "url(assets/img/monsters/bgCardMonsters.png)",
             bg: "url(assets/img/northernRealms/backgroundNorthernRealms.jpg)"
         },
+
         scoyataely: {
             name: "scoyataely",
+            nameText: "Scoia’taels",
             color: "#008300",
             colorText: "#04C100",
             logo: "url(assets/img/scoyataely/logoScoyataely.png)",
             bgBack: "url(assets/img/monsters/bgCardMonsters.png)",
             bg: "url(assets/img/scoyataely/backgroundScoyataely.jpg)"
         },
+
         skellige: {
             name: "skellige",
+            nameText: "Skellige",
             color: "#9B00FF",
             colorText: "#CD03FF",
             logo: "url(assets/img/skellige/logoSkellige.png",
             bgBack: "url(assets/img/monsters/bgCardMonsters.png)",
             bg: "url(assets/img/skellige/backgroundSkellige.jpg)"
-        },
-    };
+        }
+    }
 
-    return dbFraction;
+    return dbFraction
+}
+function dbGamers() {
+    const gamers = ["Nikita", "Alice", "Anastasia", "Fedor"]
+    return gamers
 }
 
 function dbFraction() {
@@ -63,7 +72,7 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 },
                 liderLordSouth1: {
                     name: "liderLordSouth1",
@@ -73,7 +82,7 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 },
                 liderLordSouth2: {
                     name: "liderLordSouth2",
@@ -83,7 +92,7 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 },
                 liderLordSouth3: {
                     name: "liderLordSouth3",
@@ -93,7 +102,7 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 },
                 liderLordSouth4: {
                     name: "liderLordSouth4",
@@ -103,8 +112,8 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
-                },
+                    }
+                }
             },
 
             melee: {
@@ -116,7 +125,7 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 },
                 melenauzick_2_friend: {
                     name: "melenauzick_2_friend",
@@ -126,7 +135,7 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 }
             }
         },
@@ -139,8 +148,8 @@ function dbFraction() {
                         Nikita: false,
                         Alice: false,
                         Anastasia: false,
-                        Fedor: false,
-                    },
+                        Fedor: false
+                    }
                 }
             },
 
@@ -153,10 +162,9 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 }
             }
-
         },
         northernRealms: {
             leaders: {
@@ -167,8 +175,8 @@ function dbFraction() {
                         Nikita: false,
                         Alice: false,
                         Anastasia: false,
-                        Fedor: false,
-                    },
+                        Fedor: false
+                    }
                 }
             },
 
@@ -181,25 +189,17 @@ function dbFraction() {
                         Alice: false,
                         Anastasia: false,
                         Fedor: false
-                    },
+                    }
                 }
             }
-
         },
-        scoyataely: {
-
-        },
-        skellige: {
-
-        }
-
+        scoyataely: {},
+        skellige: {}
     }
 
-    return fraction;
+    return fraction
 }
 
-const filter = new Filter(dbFraction(), dbFractionLocal());
+const filter = new Filter(dbFraction(), dbFractionLocal(), dbGamers())
 
-export {
-    filter
-};
+export { filter }

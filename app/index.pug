@@ -6,46 +6,42 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet" href="assets/css/style.min.css")
         link(rel="preconnect" href="https://fonts.googleapis.com")
-        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin) 
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
         link(href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet")
         link(rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css")
-        title D&D GWINT 
+        title D&D GWINT
         include ./pug/svg.pug
-    body 
+    body
         .wrapper
             .content
-            
+
                 header.header
                     .container
-                        .slider-fraction
-                            +slider-fraction__prev
-                            .slider-fraction__wrapper.swiper-wrapper
-                                h2.slider-fraction__item.slider-title.swiper-slide(data-fraction="nilfgaard") Nilfgaard Empire
-                                h2.slider-fraction__item.slider-title.swiper-slide(data-fraction="monsters") Monsters
-                                h2.slider-fraction__item.slider-title.swiper-slide(data-fraction="northernRealms") Northern Realms
-                                h2.slider-fraction__item.slider-title.swiper-slide(data-fraction="scoyataely") Scoia’taels
-                                h2.slider-fraction__item.slider-title.swiper-slide(data-fraction="skellige") Skellige
-                            +slider-fraction__next
-                            .slider-logo
-                                .swiper-wrapper 
-                                    .slider-fraction-copy.swiper-slide
-                            
+                        .sliders-header
+                            .slider-fraction
+                                +slider-fraction__prev
+                                .swiper-wrapper
+                                +slider-fraction__next
 
-                main.cards 
+                            .slider-logo
+                                .swiper-wrapper
+
+
+                main.cards
                     .container
-                        .all-cards.tabs-wrapper 
-                            header.all-cards__header 
+                        .all-cards.tabs-wrapper
+                            header.all-cards__header
                                 h3 Card Collection
                             .all-cards__tabs
                                 .all-cards__tabs-content
-                                    h4 Leaders 
+                                    h4 Leaders
                                     h4 Melee squad
                                     h4 Long-range squad
                                     h4 Siege squad
                                     h4 Heroes
-                                    h4 Special cards 
-                                ul.all-cards__tabs-trigger 
-                                    li(data-group = "leaders") 
+                                    h4 Special cards
+                                ul.all-cards__tabs-trigger
+                                    li(data-group = "leaders")
                                         +leaders-img
                                     li(data-group = "melee")
                                         +MeleeSquad-img
@@ -56,44 +52,44 @@ html(lang="ru")
                                     li(data-group = "hero")
                                         +Heroes
                                     li(data-group = "special")
-                                        +SpecialCards 
+                                        +SpecialCards
                             .all-cards__content
-                                
+
                         .random-cards
                             .random-cards__bigcard
                                 .random-cards__bigcard-cercle
                                 button.random-cards__bigcard-btn Random
-                                    .random-cards__bigcard-btn--borderleft 
-                                        +borderBtn-left 
-                                    .random-cards__bigcard-btn--borderright 
-                                        +borderBtn-right 
-                                .random-cards__bigcard-slider 
+                                    .random-cards__bigcard-btn--borderleft
+                                        +borderBtn-left
+                                    .random-cards__bigcard-btn--borderright
+                                        +borderBtn-right
+                                .random-cards__bigcard-slider
                                     .swiper-wrapper
-                                        .swiper-slide
+
                             .random-cards__info
-                                .random-cards__info-total 
-                                    h2 Total cards in deck 
-                                    p 
+                                .random-cards__info-total
+                                    h2 Total cards in deck
+                                    p
                                 .random-cards__info-unit
                                     h2 Total of unit cards
-                                    p 
-                                .random-cards__info-special 
-                                    h2 Total special cards 
-                                    p 
+                                    p
+                                .random-cards__info-special
+                                    h2 Total special cards
+                                    p
 
-                        .deck-cards.tabs-wrapper 
-                            header.deck-cards__header 
+                        .deck-cards.tabs-wrapper
+                            header.deck-cards__header
                                 h3 Card in Deck
                             .deck-cards__tabs
                                 .deck-cards__tabs-content
-                                    h4 Leaders 
+                                    h4 Leaders
                                     h4 Melee squad
                                     h4 Long-range squad
                                     h4 Siege squad
                                     h4 Heroes
-                                    h4 Special cards 
-                                ul.deck-cards__tabs-trigger 
-                                    li(data-group = "leaders") 
+                                    h4 Special cards
+                                ul.deck-cards__tabs-trigger
+                                    li(data-group = "leaders")
                                         +leaders-img
                                     li(data-group = "melee")
                                         +MeleeSquad-img
@@ -104,26 +100,27 @@ html(lang="ru")
                                     li(data-group = "hero")
                                         +Heroes
                                     li(data-group = "special")
-                                        +SpecialCards 
+                                        +SpecialCards
                             .deck-cards__content
 
-            footer.footer 
+            footer.footer
                 .container
                     .slider-gamer
                         +slider-gamer__prev
-                        .slider-gamer__wrapper.swiper-wrapper
-                            h2.slider-gamer__item.slider-title.swiper-slide(data-gamer="Nikita") Nikita
-                            h2.slider-gamer__item.slider-title.swiper-slide(data-gamer="Alice") Alice 
-                            h2.slider-gamer__item.slider-title.swiper-slide(data-gamer="Anastasia") Anastasia
-                            h2.slider-gamer__item.slider-title.swiper-slide(data-gamer="Fedor") Fedor
+                        .swiper-wrapper
                         +slider-gamer__next
+
             .wrapper-slider
                 .swiper-wrapper
-                    .wrapper-copy.swiper-slide
+
             .popup-close
                 h2 Приложение не поддерживается на устройствах c таким разрешением экрана.
-                        
+
+            .popup-preloader
+                //- img(src="./assets/img/Icon/Heroes.svg", alt="прелоадер")
+                h2 Загрузка...
+
     script(src = "assets/js/bundle.js")
-				
+
 
 

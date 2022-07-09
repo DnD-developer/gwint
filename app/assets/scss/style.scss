@@ -1,13 +1,11 @@
-@import './libs';
-@import './animation';
+@import "./libs";
+@import "./animation";
 // @import './fonts';
-@import './global';
-@import './vars';
+@import "./global";
+@import "./vars";
 // @import './modalPlugin';
 
-
-
-.slider-fraction {
+.sliders-header {
     position: relative;
     max-width: 750px;
     margin: 0 auto;
@@ -16,13 +14,13 @@
     background-position: center top -26px;
     background-repeat: no-repeat;
     transition: all 0.3s;
+}
 
-    &__wrapper {
-        min-height: 140px;
-        min-width: 0;
-        display: flex;
-        align-items: center;
-    }
+.slider-fraction {
+    min-height: 140px;
+    min-width: 0;
+    display: flex;
+    align-items: center;
 }
 
 .cards {
@@ -45,12 +43,11 @@
     flex-shrink: 0;
 }
 
-
 .all-cards__header,
 .deck-cards__header {
     text-align: center;
     font-size: 17px;
-    color: #B6B6B6;
+    color: #b6b6b6;
     margin-bottom: 5px;
 }
 
@@ -65,10 +62,9 @@
 .deck-cards__tabs-content {
     text-align: center;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 30px;
 }
-
 
 .all-cards__tabs-trigger,
 .deck-cards__tabs-trigger {
@@ -96,7 +92,6 @@
         &:hover {
             .svg-tab-shadow {
                 opacity: 1;
-
             }
         }
     }
@@ -106,7 +101,6 @@
     transition: opacity 0.5s;
     opacity: 0;
 }
-
 
 .deck-cards__content,
 .all-cards__content {
@@ -118,7 +112,7 @@
     padding-right: 21px;
     overflow-x: hidden;
     overflow-y: auto;
-    height: calc(76vh - 150px);
+    max-height: calc(76vh - 150px);
 
     .simplebar-content {
         display: flex;
@@ -130,7 +124,7 @@
 
 .card-item {
     position: relative;
-    transition: opacity .7s;
+    transition: opacity 0.7s;
     width: 104px;
     height: 200px;
     transform: perspective(900px);
@@ -138,7 +132,7 @@
     opacity: 1;
     margin-top: 20px;
 
-    &:nth-child(3n+2) {
+    &:nth-child(3n + 2) {
         margin-left: 8%;
         margin-right: 7.9%;
     }
@@ -150,7 +144,6 @@
     }
 
     &:hover {
-
         .add-svg,
         .delete-svg {
             opacity: 1;
@@ -186,14 +179,13 @@
         width: 32px;
         height: 32px;
         opacity: 0;
-        transition: opacity .3s;
+        transition: opacity 0.3s;
         z-index: 150;
         cursor: pointer;
     }
-
 }
 
-//! RANDOM 
+//! RANDOM
 
 .random-cards {
     padding-top: 20px;
@@ -254,7 +246,7 @@
             padding: 0 15px;
             background: transparent;
             font-size: 14px;
-            color: #FFC803;
+            color: #ffc803;
             text-transform: uppercase;
             line-height: 33px;
             outline: none;
@@ -281,7 +273,6 @@
                 right: 0;
                 top: 0;
             }
-
         }
 
         &-cercle {
@@ -309,7 +300,7 @@
     margin-bottom: 20px;
 
     h2 {
-        color: #B6B6B6;
+        color: #b6b6b6;
         margin-bottom: 20px;
     }
 
@@ -322,23 +313,22 @@
     margin-bottom: 0;
 }
 
-
 //!FOOTER
 
 .slider-gamer {
     position: relative;
-    max-width: 670px;
-    margin: 0 auto;
-    overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    max-width: 670px;
     max-height: 130px;
-    height: 10vh;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    overflow: hidden;
 
-    &__wrapper {
+    .swiper-wrapper {
         height: auto !important;
     }
 }
 
-
-@import './media';
+@import "./media";
