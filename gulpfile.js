@@ -10,7 +10,7 @@ let { src, dest, watch, parallel } = require("gulp"),
 const webpack = require("webpack-stream")
 
 const dist = "./dist/"
-// const dist = "/Applications/MAMP/htdocs/test/dist/";
+// const distServer = "/Users/nikitakuvasov/Sites/Gwint/"
 
 function gulpPug() {
     return src("app/*.pug")
@@ -25,6 +25,17 @@ function gulpPug() {
                 stream: true
             })
         )
+}
+
+function gulpPugProd() {
+    return src("app/*.pug")
+        .pipe(
+            pug({
+                pretty: false
+            })
+        )
+        .pipe(dest(dist))
+        .pipe(dest(distServer))
 }
 
 function scss() {
@@ -46,6 +57,7 @@ function scss() {
         )
         .pipe(dest("app/assets/css"))
         .pipe(dest(dist + "/assets/css"))
+        .pipe(dest(distServer + "/assets/css"))
         .pipe(
             browserSync.reload({
                 stream: true
@@ -75,7 +87,7 @@ function css() {
 }
 
 function html() {
-    return src("app/*.html").pipe(dest(dist)).pipe(browserSync.stream())
+    return src("app/*.html").pipe(dest(dist)).pipe(dest(distServer)).pipe(browserSync.stream())
 }
 
 function buildJs() {
@@ -86,8 +98,6 @@ function buildJs() {
                 output: {
                     filename: "bundle.js"
                 },
-                watch: false,
-                devtool: "source-map",
                 module: {
                     rules: [
                         {
@@ -114,12 +124,14 @@ function buildJs() {
             })
         )
         .pipe(dest(dist + "assets/js"))
+        .pipe(dest(distServer + "assets/js"))
         .on("end", browserSync.reload)
 }
 
 function copyAssets() {
     return src(["./app/assets/**/*.*", "!app/assets/scss/**/*.*", "!app/assets/js/**/*.*"])
         .pipe(dest(dist + "/assets"))
+        .pipe(dest(distServer + "/assets"))
         .on("end", browserSync.reload)
 }
 
@@ -151,33 +163,41 @@ function watching() {
 // 		.pipe(gulp.dest('dist/assets/img'));
 // });
 
-// gulp.task("build-prod-js", () => {
-//     return gulp.src("app/assets/js/main.js")
-//                 .pipe(webpack({
-//                     mode: 'production',
-//                     output: {
-//                         filename: 'bundle.js'
-//                     },
-//                     module: {
-//                         rules: [
-//                           {
-//                             test: /\.m?js$/,
-//                             exclude: /(node_modules|bower_components)/,
-//                             use: {
-//                               loader: 'babel-loader',
-//                               options: {
-//                                 presets: [['@babel/preset-env', {
-//                                     corejs: 3,
-//                                     useBuiltIns: "usage"
-//                                 }]]
-//                               }
-//                             }
-//                           }
-//                         ]
-//                       }
-// 				}))
-// 				.pipe(gulp.dest(dist+ 'assets/js'));
-// });
-// gulp.task('build', gulp.series("build-prod-js"));
+function buildProdJs() {
+    return src("app/assets/js/main.js")
+        .pipe(
+            webpack({
+                mode: "production",
+                output: {
+                    filename: "bundle.js"
+                },
+                module: {
+                    rules: [
+                        {
+                            test: /\.m?js$/,
+                            exclude: /(node_modules|bower_components)/,
+                            use: {
+                                loader: "babel-loader",
+                                options: {
+                                    presets: [
+                                        [
+                                            "@babel/preset-env",
+                                            {
+                                                corejs: 3,
+                                                useBuiltIns: "usage"
+                                            }
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            })
+        )
+        .pipe(dest(distServer + "assets/js"))
+        .pipe(dest(dist + "assets/js"))
+}
 
+exports.build = parallel(gulpPugProd, scss, css, buildProdJs, copyAssets)
 exports.default = parallel(gulpPug, html, scss, css, buildJs, copyAssets, watching)
