@@ -181,4 +181,4 @@ function watching() {
 // });
 // gulp.task('build', gulp.series("build-prod-js"));
 
-exports.default = parallel(gulpPug, html, css, scss, buildJs, copyAssets, watching)
+exports.default = parallel(gulpPug, html, scss, css, buildJs, copyAssets, watching)
