@@ -10,7 +10,7 @@ let { src, dest, watch, parallel } = require("gulp"),
 const webpack = require("webpack-stream")
 
 const dist = "./dist/"
-const distServer = "/Users/nikitakuvasov/Sites/Gwint/"
+const distServer = "./dist/"
 
 function gulpPug() {
     return src("app/*.pug")
@@ -25,6 +25,17 @@ function gulpPug() {
                 stream: true
             })
         )
+}
+
+function gulpPugProd() {
+    return src("app/*.pug")
+        .pipe(
+            pug({
+                pretty: false
+            })
+        )
+        .pipe(dest(dist))
+        .pipe(dest(distServer))
 }
 
 function scss() {
@@ -152,33 +163,41 @@ function watching() {
 // 		.pipe(gulp.dest('dist/assets/img'));
 // });
 
-// gulp.task("build-prod-js", () => {
-//     return gulp.src("app/assets/js/main.js")
-//                 .pipe(webpack({
-//                     mode: 'production',
-//                     output: {
-//                         filename: 'bundle.js'
-//                     },
-//                     module: {
-//                         rules: [
-//                           {
-//                             test: /\.m?js$/,
-//                             exclude: /(node_modules|bower_components)/,
-//                             use: {
-//                               loader: 'babel-loader',
-//                               options: {
-//                                 presets: [['@babel/preset-env', {
-//                                     corejs: 3,
-//                                     useBuiltIns: "usage"
-//                                 }]]
-//                               }
-//                             }
-//                           }
-//                         ]
-//                       }
-// 				}))
-// 				.pipe(gulp.dest(dist+ 'assets/js'));
-// });
-// gulp.task('build', gulp.series("build-prod-js"));
+function buildProdJs() {
+    return src("app/assets/js/main.js")
+        .pipe(
+            webpack({
+                mode: "production",
+                output: {
+                    filename: "bundle.js"
+                },
+                module: {
+                    rules: [
+                        {
+                            test: /\.m?js$/,
+                            exclude: /(node_modules|bower_components)/,
+                            use: {
+                                loader: "babel-loader",
+                                options: {
+                                    presets: [
+                                        [
+                                            "@babel/preset-env",
+                                            {
+                                                corejs: 3,
+                                                useBuiltIns: "usage"
+                                            }
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            })
+        )
+        .pipe(dest(distServer + "assets/js"))
+        .pipe(dest(dist + "assets/js"))
+}
 
+exports.build = parallel(gulpPugProd, scss, css, buildProdJs, copyAssets)
 exports.default = parallel(gulpPug, html, scss, css, buildJs, copyAssets, watching)
