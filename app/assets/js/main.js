@@ -7,7 +7,7 @@ import { Filter } from "./modules/filter"
 import { parseDbFraction } from "./services/services"
 import { putDbFraction } from "./services/services"
 import { zeroFilter } from "./services/services"
-import { filter, dbFractions, dbCards } from "./services/services"
+import { filter, dbFractions, dbCards, dbGamers } from "./services/services"
 
 document.addEventListener("DOMContentLoaded", () => {
     const preloader = document.querySelector(".popup-preloader")
