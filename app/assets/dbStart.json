@@ -22,7 +22,7 @@
             "name": "northernRealms",
             "nameText": "Northern Realms",
             "color": "#0087ff",
-            "colorText": "#70c3ff",
+            "colorText": "#1EA0FE",
             "logo": "url(assets/img/northernRealms/backgrounds/logoNorthernRealms.png",
             "bgBack": "url(assets/img/northernRealms/backgrounds/bgCardNorhernRealms.png)",
             "bg": "url(assets/img/northernRealms/backgrounds/backgroundNorthernRealms.jpg)"
@@ -843,36 +843,6 @@
                 "specSunny3": {
                     "name": "specSunny3",
                     "bg": "url(assets/img/nilfgaard/specSunny.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm1": {
-                    "name": "specShtorm1",
-                    "bg": "url(assets/img/nilfgaard/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm2": {
-                    "name": "specShtorm2",
-                    "bg": "url(assets/img/nilfgaard/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm3": {
-                    "name": "specShtorm3",
-                    "bg": "url(assets/img/nilfgaard/specShtorm.png)",
                     "gamers": {
                         "Nikita": false,
                         "Alice": false,
@@ -1723,36 +1693,6 @@
                         "Anastasia": false,
                         "Fedor": false
                     }
-                },
-                "specShtorm1": {
-                    "name": "specShtorm1",
-                    "bg": "url(assets/img/monsters/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm2": {
-                    "name": "specShtorm2",
-                    "bg": "url(assets/img/monsters/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm3": {
-                    "name": "specShtorm3",
-                    "bg": "url(assets/img/monsters/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
                 }
             }
         },
@@ -2551,36 +2491,6 @@
                 "specSunny3": {
                     "name": "specSunny3",
                     "bg": "url(assets/img/northernRealms/specSunny.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm1": {
-                    "name": "specShtorm1",
-                    "bg": "url(assets/img/northernRealms/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm2": {
-                    "name": "specShtorm2",
-                    "bg": "url(assets/img/northernRealms/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm3": {
-                    "name": "specShtorm3",
-                    "bg": "url(assets/img/northernRealms/specShtorm.png)",
                     "gamers": {
                         "Nikita": false,
                         "Alice": false,
@@ -3395,36 +3305,6 @@
                 "specSunny3": {
                     "name": "specSunny3",
                     "bg": "url(assets/img//scoyataely/specSunny.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm1": {
-                    "name": "specShtorm1",
-                    "bg": "url(assets/img/scoyataely/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm2": {
-                    "name": "specShtorm2",
-                    "bg": "url(assets/img/scoyataely/specShtorm.png)",
-                    "gamers": {
-                        "Nikita": false,
-                        "Alice": false,
-                        "Anastasia": false,
-                        "Fedor": false
-                    }
-                },
-                "specShtorm3": {
-                    "name": "specShtorm3",
-                    "bg": "url(assets/img/scoyataely/specShtorm.png)",
                     "gamers": {
                         "Nikita": false,
                         "Alice": false,
