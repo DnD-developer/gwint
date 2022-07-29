@@ -10,7 +10,7 @@ let { src, dest, watch, parallel } = require("gulp"),
 const webpack = require("webpack-stream")
 
 const dist = "./dist/"
-const distServer = "./dist/"
+const distServer = "/Users/nikitakuvasov/Sites/Gwint/"
 
 function gulpPug() {
     return src("app/*.pug")
