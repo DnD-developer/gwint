@@ -35,34 +35,36 @@ function gulpPugProd() {
             })
         )
         .pipe(dest(dist))
-        .pipe(dest(distServer))
+    // .pipe(dest(distServer))
 }
 
 function scss() {
-    return src("app/assets/scss/**/*.scss")
-        .pipe(
-            sass({
-                outputStyle: "compressed"
-            })
-        )
-        .pipe(
-            autoprefixer({
-                overrideBrowserslist: ["last 8 versions"]
-            })
-        )
-        .pipe(
-            rename({
-                suffix: ".min"
-            })
-        )
-        .pipe(dest("app/assets/css"))
-        .pipe(dest(dist + "/assets/css"))
-        .pipe(dest(distServer + "/assets/css"))
-        .pipe(
-            browserSync.reload({
-                stream: true
-            })
-        )
+    return (
+        src("app/assets/scss/**/*.scss")
+            .pipe(
+                sass({
+                    outputStyle: "compressed"
+                })
+            )
+            .pipe(
+                autoprefixer({
+                    overrideBrowserslist: ["last 8 versions"]
+                })
+            )
+            .pipe(
+                rename({
+                    suffix: ".min"
+                })
+            )
+            .pipe(dest("app/assets/css"))
+            .pipe(dest(dist + "/assets/css"))
+            // .pipe(dest(distServer + "/assets/css"))
+            .pipe(
+                browserSync.reload({
+                    stream: true
+                })
+            )
+    )
 }
 
 function css() {
@@ -87,52 +89,57 @@ function css() {
 }
 
 function html() {
-    return src("app/*.html").pipe(dest(dist)).pipe(dest(distServer)).pipe(browserSync.stream())
+    return src("app/*.html").pipe(dest(dist))
+    // .pipe(dest(distServer)).pipe(browserSync.stream())
 }
 
 function buildJs() {
-    return src("app/assets/js/main.js")
-        .pipe(
-            webpack({
-                mode: "development",
-                output: {
-                    filename: "bundle.js"
-                },
-                module: {
-                    rules: [
-                        {
-                            test: /\.m?js$/,
-                            exclude: /(node_modules|bower_components)/,
-                            use: {
-                                loader: "babel-loader",
-                                options: {
-                                    presets: [
-                                        [
-                                            "@babel/preset-env",
-                                            {
-                                                // debug: true,
-                                                corejs: 3,
-                                                useBuiltIns: "usage"
-                                            }
+    return (
+        src("app/assets/js/main.js")
+            .pipe(
+                webpack({
+                    mode: "development",
+                    output: {
+                        filename: "bundle.js"
+                    },
+                    module: {
+                        rules: [
+                            {
+                                test: /\.m?js$/,
+                                exclude: /(node_modules|bower_components)/,
+                                use: {
+                                    loader: "babel-loader",
+                                    options: {
+                                        presets: [
+                                            [
+                                                "@babel/preset-env",
+                                                {
+                                                    // debug: true,
+                                                    corejs: 3,
+                                                    useBuiltIns: "usage"
+                                                }
+                                            ]
                                         ]
-                                    ]
+                                    }
                                 }
                             }
-                        }
-                    ]
-                }
-            })
-        )
-        .pipe(dest(dist + "assets/js"))
-        .pipe(dest(distServer + "assets/js"))
-        .on("end", browserSync.reload)
+                        ]
+                    }
+                })
+            )
+            .pipe(dest(dist + "assets/js"))
+            // .pipe(dest(distServer + "assets/js"))
+            .on("end", browserSync.reload)
+    )
 }
 
 function copyAssets() {
-    return src(["./app/assets/**/*.*", "!app/assets/scss/**/*.*", "!app/assets/js/**/*.*"])
-        .pipe(dest(dist + "/assets"))
-        .pipe(dest(distServer + "/assets"))
-        .on("end", browserSync.reload)
+    return (
+        src(["./app/assets/**/*.*", "!app/assets/scss/**/*.*", "!app/assets/js/**/*.*"])
+            .pipe(dest(dist + "/assets"))
+            // .pipe(dest(distServer + "/assets"))
+            .on("end", browserSync.reload)
+    )
 }
 
 function watching() {
@@ -164,39 +171,41 @@ function watching() {
 // });
 
 function buildProdJs() {
-    return src("app/assets/js/main.js")
-        .pipe(
-            webpack({
-                mode: "production",
-                output: {
-                    filename: "bundle.js"
-                },
-                module: {
-                    rules: [
-                        {
-                            test: /\.m?js$/,
-                            exclude: /(node_modules|bower_components)/,
-                            use: {
-                                loader: "babel-loader",
-                                options: {
-                                    presets: [
-                                        [
-                                            "@babel/preset-env",
-                                            {
-                                                corejs: 3,
-                                                useBuiltIns: "usage"
-                                            }
+    return (
+        src("app/assets/js/main.js")
+            .pipe(
+                webpack({
+                    mode: "production",
+                    output: {
+                        filename: "bundle.js"
+                    },
+                    module: {
+                        rules: [
+                            {
+                                test: /\.m?js$/,
+                                exclude: /(node_modules|bower_components)/,
+                                use: {
+                                    loader: "babel-loader",
+                                    options: {
+                                        presets: [
+                                            [
+                                                "@babel/preset-env",
+                                                {
+                                                    corejs: 3,
+                                                    useBuiltIns: "usage"
+                                                }
+                                            ]
                                         ]
-                                    ]
+                                    }
                                 }
                             }
-                        }
-                    ]
-                }
-            })
-        )
-        .pipe(dest(distServer + "assets/js"))
-        .pipe(dest(dist + "assets/js"))
+                        ]
+                    }
+                })
+            )
+            // .pipe(dest(distServer + "assets/js"))
+            .pipe(dest(dist + "assets/js"))
+    )
 }
 
 exports.build = parallel(gulpPugProd, scss, css, buildProdJs, copyAssets)

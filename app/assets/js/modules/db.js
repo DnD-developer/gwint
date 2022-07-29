@@ -26,9 +26,9 @@ function dbFractionLocal() {
             name: "northernRealms",
             nameText: "Northern Realms",
             color: "#0087ff",
-            colorText: "#70c3ff",
+            colorText: "#1EA0FE",
             logo: "url(assets/img/northernRealms/logoNorthernRealms.png",
-            bgBack: "url(assets/img/monsters/bgCardMonsters.png)",
+            bgBack: "url(assets/img/northernRealms/bgCardNorhernRealms.png)",
             bg: "url(assets/img/northernRealms/backgroundNorthernRealms.jpg)"
         },
 
