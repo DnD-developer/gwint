@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelector(".random-cards__bigcard-btn").addEventListener("click", () => {
         preloader.style.display = "flex"
-        filter.class.randomaizer()
-        putDbFraction("http://localhost:3000/dbCards", JSON.parse(JSON.stringify(dbCards.db))).finally(() => (preloader.style.display = "none"))
+        console.log(filter.classLocal)
+        filter.classLocal.randomaizer()
+        putDbFraction("http://localhost:3000/dbCards", JSON.parse(JSON.stringify(dbCards.dbLocal))).finally(() => (preloader.style.display = "none"))
     })
 })
