@@ -157,6 +157,19 @@
         visibility: visible !important;
     }
 
+    &__front.card-bg {
+        border: 5px solid #000000;
+        background-size: 110%;
+
+        &::after {
+            background: rgba(#000000, 0);
+        }
+
+        &::before {
+            background: rgba(#000000, 0);
+        }
+    }
+
     &__back {
         position: absolute;
         transition: all 0.3s;
@@ -227,6 +240,19 @@
             z-index: 2;
             visibility: hidden;
             box-sizing: border-box !important;
+        }
+
+        &-back.card-bg {
+            border: 5px solid #000000;
+            background-size: 110%;
+
+            &::after {
+                background: rgba(#000000, 0);
+            }
+
+            &::before {
+                background: rgba(#000000, 0);
+            }
         }
 
         &-slider {
