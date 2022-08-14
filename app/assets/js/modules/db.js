@@ -38,7 +38,7 @@ function dbFractionLocal() {
             color: "#008300",
             colorText: "#04C100",
             logo: "url(assets/img/scoyataely/logoScoyataely.png)",
-            bgBack: "url(assets/img/monsters/bgCardMonsters.png)",
+            bgBack: "url(assets/img/scoyataely/bgCardScoyataely.png)",
             bg: "url(assets/img/scoyataely/backgroundScoyataely.jpg)"
         },
 
