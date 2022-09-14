@@ -48,7 +48,7 @@ function dbFractionLocal() {
             color: "#9B00FF",
             colorText: "#CD03FF",
             logo: "url(assets/img/skellige/logoSkellige.png",
-            bgBack: "url(assets/img/monsters/bgCardMonsters.png)",
+            bgBack: "url(assets/img/skellige/bgCardSkellige.png)",
             bg: "url(assets/img/skellige/backgroundSkellige.jpg)"
         }
     }
